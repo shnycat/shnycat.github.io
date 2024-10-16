@@ -2,13 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</loc>
-    <lastmod>2024-10-15T18:40:35+00:00</lastmod>
+    <loc>http://localhost:1313/posts/kalkulus/apa-itu-limit/</loc>
+    <lastmod>2024-10-15T19:06:48+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-10-15T18:40:35+00:00</lastmod>
+    <lastmod>2024-10-15T19:06:48+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-10-15T19:06:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/aljabar/pertidaksamaan/</loc>
+    <lastmod>2024-10-15T18:56:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/aljabar/rangkuman-aljabar/</loc>
+    <lastmod>2024-10-15T18:51:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kalkulus/faq/kendala-saat-belajar-kalkulus/</loc>
+    <lastmod>2024-10-15T18:47:27+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</loc>
     <lastmod>2024-10-15T18:40:35+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/kalkulus/faq/bagaimana-memulai-belajar-kalkulus/</loc>

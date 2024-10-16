@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Latihan Limit | Shnycat Docs</title>
+<meta name="keywords" content="">
+<meta name="description" content="Berikut adalah 30 soal tentang limit, dimulai dari yang mudah hingga yang rumit:
+Soal Mudah:
+
+Tentukan $ \lim_{x \to 2} (3x &#43; 5) $.
+Tentukan $ \lim_{x \to 1} (x^2 &#43; 4x) $.
+Tentukan $ \lim_{x \to 3} (x^2 - 9) $.
+Tentukan $ \lim_{x \to -1} (x^2 &#43; 2x &#43; 1) $.
+Tentukan $ \lim_{x \to 0} (x &#43; 7) $.
+Tentukan $ \lim_{x \to 2} (5x^2 - 3x) $.
+Tentukan $ \lim_{x \to -2} (x^3 &#43; 4x^2 &#43; 3x) $.
+Tentukan $ \lim_{x \to 1} \frac{2x &#43; 3}{x - 1} $.
+Tentukan $ \lim_{x \to 0} (x^2 &#43; 4) $.
+Tentukan $ \lim_{x \to 4} (x - 2)(x &#43; 3) $.
+
+Soal Sedang:
+
+Tentukan $ \lim_{x \to 0} \frac{x^2 &#43; 3x}{x} $.
+Tentukan $ \lim_{x \to 2} \frac{x^2 - 4}{x - 2} $.
+Tentukan $ \lim_{x \to 0} \frac{x}{\sin x} $.
+Tentukan $ \lim_{x \to \infty} \frac{3x &#43; 5}{x - 1} $.
+Tentukan $ \lim_{x \to -1} \frac{x^2 - 1}{x &#43; 1} $.
+Tentukan $ \lim_{x \to 1} \frac{x^3 - 1}{x - 1} $.
+Tentukan $ \lim_{x \to 2} \frac{(x^2 - 4)(x &#43; 2)}{x - 2} $.
+Tentukan $ \lim_{x \to 0} \frac{e^x - 1}{x} $.
+Tentukan $ \lim_{x \to 0} \frac{\ln(1 &#43; x)}{x} $.
+Tentukan $ \lim_{x \to 0^&#43;} \frac{1}{x} $.
+
+Soal Menengah:
+
+Tentukan $ \lim_{x \to \infty} \frac{x^2 &#43; 3x &#43; 1}{x &#43; 5} $.
+Tentukan $ \lim_{x \to 0} \frac{1 - \cos x}{x^2} $.
+Tentukan $ \lim_{x \to 3} \frac{x^3 - 27}{x - 3} $.
+Tentukan $ \lim_{x \to 0^&#43;} x \ln(x) $.
+Tentukan $ \lim_{x \to \infty} \frac{5x^3 &#43; 4x^2 - x}{2x^3 - 3x^2 &#43; 6} $.
+Tentukan $ \lim_{x \to 0} \frac{\tan x}{x} $.
+Tentukan $ \lim_{x \to \infty} \left( 1 &#43; \frac{1}{x} \right)^x $.
+Tentukan $ \lim_{x \to 0} \frac{x - \sin x}{x^3} $.
+Tentukan $ \lim_{x \to 2} \frac{(x - 2)^2}{x - 2} $.
+Tentukan $ \lim_{x \to \infty} \left( x - \sqrt{x^2 &#43; x} \right) $.
+
+
+Soal-soal ini mencakup berbagai konsep limit, mulai dari fungsi sederhana, fungsi rasional, hingga soal yang melibatkan limit menuju tak hingga, fungsi trigonometri, eksponensial, dan logaritma.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/kalkulus/latihan-limit/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/kalkulus/latihan-limit/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><style>
+body { font-family: monospace; font-size: 100%; }
+</style>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script defer language="javascript" type="text/javascript"  src="/tex-mml-chtml.js"></script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Shnycat Docs (Alt + H)">Shnycat Docs</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Latihan Limit
+    </h1>
+    <div class="post-meta"><span title='2024-10-16 12:59:54 +0000 UTC'>October 16, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Berikut adalah 30 soal tentang limit, dimulai dari yang mudah hingga yang rumit:</p>
+<h3 id="soal-mudah">Soal Mudah:<a hidden class="anchor" aria-hidden="true" href="#soal-mudah">#</a></h3>
+<ol>
+<li>Tentukan $ \lim_{x \to 2} (3x + 5) $.</li>
+<li>Tentukan $ \lim_{x \to 1} (x^2 + 4x) $.</li>
+<li>Tentukan $ \lim_{x \to 3} (x^2 - 9) $.</li>
+<li>Tentukan $ \lim_{x \to -1} (x^2 + 2x + 1) $.</li>
+<li>Tentukan $ \lim_{x \to 0} (x + 7) $.</li>
+<li>Tentukan $ \lim_{x \to 2} (5x^2 - 3x) $.</li>
+<li>Tentukan $ \lim_{x \to -2} (x^3 + 4x^2 + 3x) $.</li>
+<li>Tentukan $ \lim_{x \to 1} \frac{2x + 3}{x - 1} $.</li>
+<li>Tentukan $ \lim_{x \to 0} (x^2 + 4) $.</li>
+<li>Tentukan $ \lim_{x \to 4} (x - 2)(x + 3) $.</li>
+</ol>
+<h3 id="soal-sedang">Soal Sedang:<a hidden class="anchor" aria-hidden="true" href="#soal-sedang">#</a></h3>
+<ol start="11">
+<li>Tentukan $ \lim_{x \to 0} \frac{x^2 + 3x}{x} $.</li>
+<li>Tentukan $ \lim_{x \to 2} \frac{x^2 - 4}{x - 2} $.</li>
+<li>Tentukan $ \lim_{x \to 0} \frac{x}{\sin x} $.</li>
+<li>Tentukan $ \lim_{x \to \infty} \frac{3x + 5}{x - 1} $.</li>
+<li>Tentukan $ \lim_{x \to -1} \frac{x^2 - 1}{x + 1} $.</li>
+<li>Tentukan $ \lim_{x \to 1} \frac{x^3 - 1}{x - 1} $.</li>
+<li>Tentukan $ \lim_{x \to 2} \frac{(x^2 - 4)(x + 2)}{x - 2} $.</li>
+<li>Tentukan $ \lim_{x \to 0} \frac{e^x - 1}{x} $.</li>
+<li>Tentukan $ \lim_{x \to 0} \frac{\ln(1 + x)}{x} $.</li>
+<li>Tentukan $ \lim_{x \to 0^+} \frac{1}{x} $.</li>
+</ol>
+<h3 id="soal-menengah">Soal Menengah:<a hidden class="anchor" aria-hidden="true" href="#soal-menengah">#</a></h3>
+<ol start="21">
+<li>Tentukan $ \lim_{x \to \infty} \frac{x^2 + 3x + 1}{x + 5} $.</li>
+<li>Tentukan $ \lim_{x \to 0} \frac{1 - \cos x}{x^2} $.</li>
+<li>Tentukan $ \lim_{x \to 3} \frac{x^3 - 27}{x - 3} $.</li>
+<li>Tentukan $ \lim_{x \to 0^+} x \ln(x) $.</li>
+<li>Tentukan $ \lim_{x \to \infty} \frac{5x^3 + 4x^2 - x}{2x^3 - 3x^2 + 6} $.</li>
+<li>Tentukan $ \lim_{x \to 0} \frac{\tan x}{x} $.</li>
+<li>Tentukan $ \lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x $.</li>
+<li>Tentukan $ \lim_{x \to 0} \frac{x - \sin x}{x^3} $.</li>
+<li>Tentukan $ \lim_{x \to 2} \frac{(x - 2)^2}{x - 2} $.</li>
+<li>Tentukan $ \lim_{x \to \infty} \left( x - \sqrt{x^2 + x} \right) $.</li>
+</ol>
+<hr>
+<p>Soal-soal ini mencakup berbagai konsep limit, mulai dari fungsi sederhana, fungsi rasional, hingga soal yang melibatkan limit menuju tak hingga, fungsi trigonometri, eksponensial, dan logaritma.</p>
+<p>Berikut adalah kunci jawaban untuk soal limit <strong>yang mudah</strong> (nomor 1-10):</p>
+<ol>
+<li>
+<p>$ \lim_{x \to 2} (3x + 5) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ 3(2) + 5 = 6 + 5 = 11 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 1} (x^2 + 4x) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ (1^2) + 4(1) = 1 + 4 = 5 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 3} (x^2 - 9) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ (3^2) - 9 = 9 - 9 = 0 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to -1} (x^2 + 2x + 1) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ (-1^2) + 2(-1) + 1 = 1 - 2 + 1 = 0 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} (x + 7) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ 0 + 7 = 7 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 2} (5x^2 - 3x) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ 5(2^2) - 3(2) = 5(4) - 6 = 20 - 6 = 14 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to -2} (x^3 + 4x^2 + 3x) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ (-2^3) + 4(-2^2) + 3(-2) = -8 + 16 - 6 = 2 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 1} \frac{2x + 3}{x - 1} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Nilai limit tidak ada (tak terdefinisi) karena pembagi $ x - 1 $ menjadi 0 saat $ x = 1 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} (x^2 + 4) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ (0^2) + 4 = 0 + 4 = 4 $</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 4} (x - 2)(x + 3) $</p>
+<ul>
+<li><strong>Jawaban</strong>: $ (4 - 2)(4 + 3) = (2)(7) = 14 $</li>
+</ul>
+</li>
+</ol>
+<p>Berikut adalah kunci jawaban untuk soal limit <strong>yang sedang</strong> (nomor 11-20):</p>
+<ol start="11">
+<li>
+<p>$ \lim_{x \to 0} \frac{x^2 + 3x}{x} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Faktor $ x $ pada pembilang:
+$$
+\frac{x(x + 3)}{x} = x + 3
+$$
+Saat $ x \to 0 $, hasilnya $ 0 + 3 = 3 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 2} \frac{x^2 - 4}{x - 2} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Faktorkan $ x^2 - 4 $:
+$$
+\frac{(x - 2)(x + 2)}{x - 2} = x + 2
+$$
+Saat $ x \to 2 $, hasilnya $ 2 + 2 = 4 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} \frac{x}{\sin x} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Gunakan identitas limit standar:
+$$
+\lim_{x \to 0} \frac{x}{\sin x} = 1
+$$</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to \infty} \frac{3x + 5}{x - 1} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Bagi pembilang dan penyebut dengan $ x $:
+$$
+\frac{3x + 5}{x - 1} = \frac{3 + \frac{5}{x}}{1 - \frac{1}{x}} \to \frac{3}{1} = 3 \text{ saat } x \to \infty
+$$</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to -1} \frac{x^2 - 1}{x + 1} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Faktorkan $ x^2 - 1 $:
+$$
+\frac{(x - 1)(x + 1)}{x + 1} = x - 1
+$$
+Saat $ x \to -1 $, hasilnya $ -1 - 1 = -2 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 1} \frac{x^3 - 1}{x - 1} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Faktorkan $ x^3 - 1 $:
+$$
+\frac{(x - 1)(x^2 + x + 1)}{x - 1} = x^2 + x + 1
+$$
+Saat $ x \to 1 $, hasilnya $ 1^2 + 1 + 1 = 3 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 2} \frac{(x^2 - 4)(x + 2)}{x - 2} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Faktorkan $ x^2 - 4 $:
+$$
+\frac{(x - 2)(x + 2)(x + 2)}{x - 2} = (x + 2)^2
+$$
+Saat $ x \to 2 $, hasilnya $ (2 + 2)^2 = 16 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} \frac{e^x - 1}{x} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Ini adalah limit standar:
+$$
+\lim_{x \to 0} \frac{e^x - 1}{x} = 1
+$$</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} \frac{\ln(1 + x)}{x} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Ini juga merupakan limit standar:
+$$
+\lim_{x \to 0} \frac{\ln(1 + x)}{x} = 1
+$$</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0^+} \frac{1}{x} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Saat $ x \to 0^+ $, nilai $ \frac{1}{x} $ mendekati tak hingga ($ +\infty $).</li>
+</ul>
+</li>
+</ol>
+<p>Berikut adalah kunci jawaban untuk soal limit <strong>yang menengah hingga sulit</strong> (nomor 21-30):</p>
+<h3 id="soal-menengah-1">Soal Menengah:<a hidden class="anchor" aria-hidden="true" href="#soal-menengah-1">#</a></h3>
+<ol start="21">
+<li>
+<p>$ \lim_{x \to \infty} \frac{x^2 + 3x + 1}{x + 5} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Bagi pembilang dan penyebut dengan $ x $:
+$$
+\frac{x^2 + 3x + 1}{x + 5} = \frac{x + \frac{3}{x} + \frac{1}{x^2}}{1 + \frac{5}{x}} \to \infty \text{ saat } x \to \infty.
+$$
+Jadi, hasilnya adalah $ \infty $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} \frac{1 - \cos x}{x^2} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Gunakan identitas limit standar:
+$$
+\lim_{x \to 0} \frac{1 - \cos x}{x^2} = \frac{1}{2}
+$$</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 3} \frac{x^3 - 27}{x - 3} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Faktorkan $ x^3 - 27 $ sebagai $ (x - 3)(x^2 + 3x + 9) $:
+$$
+\frac{(x - 3)(x^2 + 3x + 9)}{x - 3} = x^2 + 3x + 9
+$$
+Saat $ x \to 3 $, hasilnya $ 3^2 + 3(3) + 9 = 9 + 9 + 9 = 27 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0^+} x \ln(x) $</p>
+<ul>
+<li><strong>Jawaban</strong>: Nilai limit ini adalah:
+$$
+\lim_{x \to 0^+} x \ln(x) = 0
+$$
+Ini bisa diselesaikan menggunakan metode L&rsquo;Hopital.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to \infty} \frac{5x^3 + 4x^2 - x}{2x^3 - 3x^2 + 6} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Bagi pembilang dan penyebut dengan $ x^3 $:
+$$
+\frac{5 + \frac{4}{x} - \frac{1}{x^2}}{2 - \frac{3}{x} + \frac{6}{x^3}} \to \frac{5}{2} \text{ saat } x \to \infty.
+$$
+Jadi, hasilnya adalah $ \frac{5}{2} $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} \frac{\tan x}{x} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Gunakan identitas limit standar:
+$$
+\lim_{x \to 0} \frac{\tan x}{x} = 1
+$$</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x $</p>
+<ul>
+<li><strong>Jawaban</strong>: Ini adalah bentuk limit terkenal yang mendefinisikan $ e $:
+$$
+\lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x = e
+$$</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 0} \frac{x - \sin x}{x^3} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Gunakan deret Taylor untuk $ \sin x $ di sekitar $ x = 0 $:
+$$
+\sin x \approx x - \frac{x^3}{6} + \dots
+$$
+Sehingga, $ \frac{x - \sin x}{x^3} = \frac{x - (x - \frac{x^3}{6})}{x^3} = \frac{x^3}{6x^3} = \frac{1}{6} $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to 2} \frac{(x - 2)^2}{x - 2} $</p>
+<ul>
+<li><strong>Jawaban</strong>: Sederhanakan ekspresi:
+$$
+\frac{(x - 2)^2}{x - 2} = x - 2
+$$
+Saat $ x \to 2 $, hasilnya $ 2 - 2 = 0 $.</li>
+</ul>
+</li>
+<li>
+<p>$ \lim_{x \to \infty} \left( x - \sqrt{x^2 + x} \right) $</p>
+<ul>
+<li><strong>Jawaban</strong>: Faktorkan $ x $ di dalam akar:
+$$
+\lim_{x \to \infty} \left( x - \sqrt{x^2 + x} \right) = \lim_{x \to \infty} x \left( 1 - \sqrt{1 + \frac{1}{x}} \right)
+$$
+Gunakan pendekatan Taylor:
+$$
+\sqrt{1 + \frac{1}{x}} \approx 1 + \frac{1}{2x}
+$$
+Sehingga hasil limitnya adalah $ \lim_{x \to \infty} \left( -\frac{1}{2} \right) = -\frac{1}{2} $.</li>
+</ul>
+</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="http://localhost:1313/">Shnycat Docs</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -6,8 +6,85 @@
     <description>Recent content on Shnycat Docs</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Oct 2024 19:06:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 13:10:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limit Soal Cerita</title>
+      <link>http://localhost:1313/posts/kalkulus/limit-soal-cerita/</link>
+      <pubDate>Wed, 16 Oct 2024 13:10:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kalkulus/limit-soal-cerita/</guid>
+      <description>&lt;p&gt;Berikut adalah 5 soal cerita tentang limit beserta jawabannya:&lt;/p&gt;
+&lt;h3 id=&#34;1-soal-kecepatan-perjalanan&#34;&gt;1. &lt;strong&gt;Soal: Kecepatan Perjalanan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Sebuah mobil bergerak dari kota A ke kota B dengan kecepatan yang semakin bertambah secara linear dari 40 km/jam hingga 80 km/jam dalam waktu 2 jam. Berapakah limit kecepatan rata-rata mobil saat mobil mendekati titik 2 jam?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jawaban&lt;/strong&gt;:
+Kecepatan rata-rata dihitung sebagai perubahan jarak dibagi dengan perubahan waktu. Secara matematis, jika kecepatan bertambah linear dari 40 km/jam ke 80 km/jam selama 2 jam, maka kita dapat menggunakan rumus limit untuk menghitung kecepatan rata-rata saat mendekati 2 jam:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Latihan Limit</title>
+      <link>http://localhost:1313/posts/kalkulus/latihan-limit/</link>
+      <pubDate>Wed, 16 Oct 2024 12:59:54 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kalkulus/latihan-limit/</guid>
+      <description>&lt;p&gt;Berikut adalah 30 soal tentang limit, dimulai dari yang mudah hingga yang rumit:&lt;/p&gt;
+&lt;h3 id=&#34;soal-mudah&#34;&gt;Soal Mudah:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} (3x + 5) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 1} (x^2 + 4x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 3} (x^2 - 9) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to -1} (x^2 + 2x + 1) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} (x + 7) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} (5x^2 - 3x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to -2} (x^3 + 4x^2 + 3x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 1} \frac{2x + 3}{x - 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} (x^2 + 4) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 4} (x - 2)(x + 3) $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;soal-sedang&#34;&gt;Soal Sedang:&lt;/h3&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x^2 + 3x}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{x^2 - 4}{x - 2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x}{\sin x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{3x + 5}{x - 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to -1} \frac{x^2 - 1}{x + 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 1} \frac{x^3 - 1}{x - 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{(x^2 - 4)(x + 2)}{x - 2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{e^x - 1}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{\ln(1 + x)}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0^+} \frac{1}{x} $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;soal-menengah&#34;&gt;Soal Menengah:&lt;/h3&gt;
+&lt;ol start=&#34;21&#34;&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{x^2 + 3x + 1}{x + 5} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{1 - \cos x}{x^2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 3} \frac{x^3 - 27}{x - 3} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0^+} x \ln(x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{5x^3 + 4x^2 - x}{2x^3 - 3x^2 + 6} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{\tan x}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x - \sin x}{x^3} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{(x - 2)^2}{x - 2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \left( x - \sqrt{x^2 + x} \right) $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;Soal-soal ini mencakup berbagai konsep limit, mulai dari fungsi sederhana, fungsi rasional, hingga soal yang melibatkan limit menuju tak hingga, fungsi trigonometri, eksponensial, dan logaritma.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rangkuman Limit</title>
+      <link>http://localhost:1313/posts/kalkulus/rangkuman-limit/</link>
+      <pubDate>Wed, 16 Oct 2024 12:50:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kalkulus/rangkuman-limit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Limit&lt;/strong&gt; adalah konsep dalam matematika yang menggambarkan nilai yang didekati oleh suatu fungsi atau urutan saat variabel mendekati titik tertentu. Meski fungsi atau nilai tidak pernah benar-benar mencapai titik itu, limit membantu kita memahami apa yang terjadi “saat mendekati” titik tersebut.&lt;/p&gt;
+&lt;h3 id=&#34;rangkuman-konsep-limit&#34;&gt;Rangkuman Konsep Limit:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Limit dari Fungsi&lt;/strong&gt;:
+Limit mengukur apa yang terjadi pada nilai suatu fungsi saat variabelnya mendekati angka tertentu.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jika $ f(x) $ adalah fungsi, maka limit $ x \to a $ dari $ f(x) $ (ditulis $ \lim_{x \to a} f(x) $) adalah nilai yang mendekati fungsi $ f(x) $ saat $ x $ mendekati $ a $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Limit dari Kiri dan Kanan&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Apa Itu Limit</title>
       <link>http://localhost:1313/posts/kalkulus/apa-itu-limit/</link>

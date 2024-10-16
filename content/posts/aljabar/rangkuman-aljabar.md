@@ -34,7 +34,9 @@ Berikut adalah rangkuman singkat konsep dasar aljabar:
 7. **Sistem Persamaan**: Sekumpulan dua atau lebih persamaan yang diselesaikan bersama-sama.
    - Contoh:
      $$
-     x + y = 10 \\
+     x + y = 10
+     $$
+     $$
      2x - y = 3
      $$
      - Langkah 1: Tambah kedua persamaan: $ 3x = 13 $
