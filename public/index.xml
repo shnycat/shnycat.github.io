@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shnycat Docs</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Shnycat Docs</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2024 19:06:48 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apa Itu Limit</title>
+      <link>http://localhost:1313/posts/kalkulus/apa-itu-limit/</link>
+      <pubDate>Tue, 15 Oct 2024 19:06:48 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kalkulus/apa-itu-limit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&amp;ldquo;Apa Itu Limit? Rahasia Di Balik Perubahan yang Tak Terlihat!&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kamu mungkin bertanya-tanya, apa sih yang spesial dari &lt;strong&gt;limit&lt;/strong&gt; dalam matematika? Limit adalah konsep dasar yang luar biasa di kalkulus, membantu kita memahami hal-hal yang tidak bisa kita lihat secara langsung! 🚀&lt;/p&gt;
+&lt;p&gt;✨ &lt;strong&gt;Apa itu Limit?&lt;/strong&gt;
+Limit adalah cara matematika untuk menjawab pertanyaan: “Apa yang terjadi saat sesuatu &lt;em&gt;mendekati&lt;/em&gt; nilai tertentu?” Misalnya, bayangkan kamu semakin mendekati ujung tebing. Limit membantu kita memahami apa yang terjadi pada kecepatanmu, posisimu, bahkan arah gerakanmu tanpa harus benar-benar jatuh dari tebingnya!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aljabar: Pertidaksamaan</title>
+      <link>http://localhost:1313/posts/aljabar/pertidaksamaan/</link>
+      <pubDate>Tue, 15 Oct 2024 18:56:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aljabar/pertidaksamaan/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pertidaksamaan&lt;/strong&gt; adalah pernyataan matematika yang menunjukkan bahwa dua nilai tidak sama, dan menggunakan tanda perbandingan untuk menunjukkan bagaimana mereka berbeda. Pertidaksamaan membandingkan dua ekspresi, menggunakan tanda-tanda berikut:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;$ &amp;lt; $&lt;/strong&gt; : Kurang dari&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$ &amp;gt; $&lt;/strong&gt; : Lebih dari&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$ \leq $&lt;/strong&gt; : Kurang dari atau sama dengan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$ \geq $&lt;/strong&gt; : Lebih dari atau sama dengan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;contoh-dasar&#34;&gt;Contoh Dasar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$ 5 &amp;lt; 7 $ berarti &amp;ldquo;5 kurang dari 7.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;$ x &amp;gt; 3 $ berarti &amp;ldquo;nilai $ x $ lebih dari 3.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;penyelesaian-pertidaksamaan&#34;&gt;Penyelesaian Pertidaksamaan&lt;/h3&gt;
+&lt;p&gt;Untuk menyelesaikan pertidaksamaan, caranya mirip dengan menyelesaikan persamaan, namun dengan aturan tambahan ketika mengalikan atau membagi dengan bilangan negatif. Berikut adalah langkah-langkahnya:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aljabar: Rangkuman</title>
+      <link>http://localhost:1313/posts/aljabar/rangkuman-aljabar/</link>
+      <pubDate>Tue, 15 Oct 2024 18:51:01 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aljabar/rangkuman-aljabar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Aljabar&lt;/strong&gt; adalah cabang matematika yang berfokus pada manipulasi simbol-simbol untuk mewakili angka. Ini memungkinkan kita untuk menyelesaikan persamaan dan memahami hubungan antar variabel.&lt;/p&gt;
+&lt;p&gt;Berikut adalah rangkuman singkat konsep dasar aljabar:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Variabel&lt;/strong&gt;: Simbol (biasanya huruf seperti $ x $ atau $ y $) yang mewakili angka yang belum diketahui.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contoh: $ x + 3 = 7 $ (di sini $ x $ adalah variabel yang kita cari nilainya).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Persamaan Linear&lt;/strong&gt;: Persamaan yang melibatkan variabel pangkat satu (tidak ada eksponen).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kendala Saat Belajar Kalkulus</title>
+      <link>http://localhost:1313/posts/kalkulus/faq/kendala-saat-belajar-kalkulus/</link>
+      <pubDate>Tue, 15 Oct 2024 18:47:27 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kalkulus/faq/kendala-saat-belajar-kalkulus/</guid>
+      <description>&lt;p&gt;Saat belajar kalkulus, beberapa kendala umum yang mungkin dihadapi adalah:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pemahaman Limit dan Abstraksi&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Limit adalah salah satu konsep yang sulit karena melibatkan pendekatan nilai, bukan hasil yang langsung terlihat. Banyak orang kesulitan memahami &amp;ldquo;pendekatan&amp;rdquo; tanpa benar-benar menyentuh suatu nilai.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kebingungan dengan Notasi Matematika&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kalkulus memperkenalkan banyak notasi baru (seperti simbol turunan, integral, dan notasi limit). Pada awalnya, ini bisa membingungkan dan sulit diingat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fungsi Kompleks dan Grafik&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kamu mungkin mengalami kesulitan saat mencoba menggambarkan fungsi atau memahami grafik fungsi yang lebih rumit (seperti fungsi trigonometri atau eksponensial).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kesulitan Memahami Turunan dan Integral&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kenapa Kalkulus?</title>
+      <link>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</link>
+      <pubDate>Tue, 15 Oct 2024 18:40:35 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;&amp;ldquo;Kenapa Kalkulus Itu Keren dan Penting?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jika kamu pernah mendengar kata &lt;strong&gt;kalkulus&lt;/strong&gt; dan langsung merasa takut, kamu tidak sendirian! Tapi tahukah kamu, kalkulus bukan hanya tentang simbol rumit dan grafik berliku-liku. Kalkulus adalah bahasa yang digunakan untuk memahami perubahan dan gerakan—dari hal kecil seperti tetesan air yang jatuh, hingga hal besar seperti orbit planet!&lt;/p&gt;
+&lt;p&gt;🌟 &lt;strong&gt;Apa itu Kalkulus?&lt;/strong&gt;
+Kalkulus adalah cabang matematika yang berfokus pada &lt;em&gt;perubahan&lt;/em&gt; dan &lt;em&gt;luas&lt;/em&gt;. Dua konsep utama kalkulus adalah:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bagaimana Memulai Belajar Kalkulus?</title>
+      <link>http://localhost:1313/posts/kalkulus/faq/bagaimana-memulai-belajar-kalkulus/</link>
+      <pubDate>Tue, 15 Oct 2024 18:20:53 +0000</pubDate>
+      <guid>http://localhost:1313/posts/kalkulus/faq/bagaimana-memulai-belajar-kalkulus/</guid>
+      <description>&lt;p&gt;Sebelum mulai belajar kalkulus, ada beberapa keterampilan dan pemahaman dasar yang akan sangat membantumu. Berikut adalah hal-hal yang sebaiknya kamu kuasai:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aritmatika&lt;/strong&gt;: Pastikan kamu nyaman dengan operasi dasar seperti penjumlahan, pengurangan, perkalian, pembagian, serta eksponen dan akar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aljabar&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Persamaan dan Pertidaksamaan&lt;/strong&gt;: Pahami cara menyelesaikan persamaan linear, kuadrat, dan eksponensial.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manipulasi Aljabar&lt;/strong&gt;: Kemampuan menyederhanakan ekspresi aljabar sangat penting dalam kalkulus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fungsi&lt;/strong&gt;: Pahami cara menggambar grafik fungsi dasar (linear, kuadrat, dan eksponensial) serta konsep domain dan range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Geometri Dasar&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Tue, 15 Oct 2024 18:03:27 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;p&gt;testinf out
+this file is in draft&lt;/p&gt;
+&lt;h1 id=&#34;hello-world&#34;&gt;hello world&lt;/h1&gt;
+&lt;p&gt;lorem ipsum dolor sit amet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
