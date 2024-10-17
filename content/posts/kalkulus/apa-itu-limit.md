@@ -2,7 +2,7 @@
 title = 'Apa Itu Limit'
 date = 2024-10-15T19:06:48Z
 +++
-**"Apa Itu Limit? Rahasia Di Balik Perubahan yang Tak Terlihat!"**
+**Rahasia Di Balik Perubahan yang Tak Terlihat!**
 
 Kamu mungkin bertanya-tanya, apa sih yang spesial dari **limit** dalam matematika? Limit adalah konsep dasar yang luar biasa di kalkulus, membantu kita memahami hal-hal yang tidak bisa kita lihat secara langsung! 🚀
 

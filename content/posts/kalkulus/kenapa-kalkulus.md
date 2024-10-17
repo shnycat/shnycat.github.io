@@ -1,9 +1,7 @@
 +++
-title = 'Kenapa Kalkulus?'
+title = 'Kalkulus?'
 date = 2024-10-15T18:40:35Z
 +++
-**"Kenapa Kalkulus Itu Keren dan Penting?"**
-
 Jika kamu pernah mendengar kata **kalkulus** dan langsung merasa takut, kamu tidak sendirian! Tapi tahukah kamu, kalkulus bukan hanya tentang simbol rumit dan grafik berliku-liku. Kalkulus adalah bahasa yang digunakan untuk memahami perubahan dan gerakan—dari hal kecil seperti tetesan air yang jatuh, hingga hal besar seperti orbit planet!
 
 🌟 **Apa itu Kalkulus?**
