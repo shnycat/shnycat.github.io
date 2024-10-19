@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Day 02 | Shnycat Docs</title>
+<meta name="keywords" content="">
+<meta name="description" content="Day 2: Binary Systems and Data Representation
+Introduction to Binary Systems
+Computers operate using binary numbers because their hardware is based on electrical signals that have two states: on or off. These states are represented by 1 (on) and 0 (off). This is the foundation of the binary system, also called base-2.
+Decimal vs. Binary
+You’re familiar with the decimal system (base-10), which uses ten digits (0-9). The binary system works similarly, but instead of ten digits, it uses only two digits (0 and 1).">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/computer-science/day-02/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/computer-science/day-02/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><style>
+body { font-family: monospace; font-size: 100%; }
+</style>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script defer language="javascript" type="text/javascript"  src="/tex-mml-chtml.js"></script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Shnycat Docs (Alt + H)">Shnycat Docs</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Day 02
+    </h1>
+    <div class="post-meta"><span title='2024-10-19 05:36:59 +0000 UTC'>October 19, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="day-2-binary-systems-and-data-representation">Day 2: Binary Systems and Data Representation<a hidden class="anchor" aria-hidden="true" href="#day-2-binary-systems-and-data-representation">#</a></h3>
+<h4 id="introduction-to-binary-systems">Introduction to Binary Systems<a hidden class="anchor" aria-hidden="true" href="#introduction-to-binary-systems">#</a></h4>
+<p>Computers operate using binary numbers because their hardware is based on electrical signals that have two states: <strong>on</strong> or <strong>off</strong>. These states are represented by <strong>1</strong> (on) and <strong>0</strong> (off). This is the foundation of the binary system, also called <strong>base-2</strong>.</p>
+<h4 id="decimal-vs-binary">Decimal vs. Binary<a hidden class="anchor" aria-hidden="true" href="#decimal-vs-binary">#</a></h4>
+<p>You’re familiar with the <strong>decimal system</strong> (base-10), which uses ten digits (0-9). The binary system works similarly, but instead of ten digits, it uses only two digits (0 and 1).</p>
+<h5 id="example">Example:<a hidden class="anchor" aria-hidden="true" href="#example">#</a></h5>
+<ul>
+<li>Decimal number <strong>9</strong> is written as <strong>1001</strong> in binary:
+<ul>
+<li>$9_{10} = 1 \times 2^3 + 0 \times 2^2 + 0 \times 2^1 + 1 \times 2^0$</li>
+</ul>
+</li>
+</ul>
+<p>In binary, each digit (bit) represents a power of 2, starting from the right. So, binary <strong>1001</strong> equals $1 \times 8 + 0 \times 4 + 0 \times 2 + 1 \times 1 = 9$.</p>
+<h4 id="converting-decimal-to-binary">Converting Decimal to Binary<a hidden class="anchor" aria-hidden="true" href="#converting-decimal-to-binary">#</a></h4>
+<p>To convert a decimal number to binary:</p>
+<ol>
+<li>Divide the number by 2.</li>
+<li>Record the remainder (either 0 or 1).</li>
+<li>Repeat the division until you reach 0.</li>
+<li>The binary representation is the sequence of remainders read from bottom to top.</li>
+</ol>
+<h5 id="example-1">Example:<a hidden class="anchor" aria-hidden="true" href="#example-1">#</a></h5>
+<p>Convert <strong>13</strong> to binary:</p>
+<ol>
+<li>$13 / 2 = 6$ remainder <strong>1</strong></li>
+<li>$6 / 2 = 3$ remainder <strong>0</strong></li>
+<li>$3 / 2 = 1$ remainder <strong>1</strong></li>
+<li>$1 / 2 = 0$ remainder <strong>1</strong></li>
+</ol>
+<p>So, <strong>13</strong> in decimal is <strong>1101</strong> in binary.</p>
+<h4 id="hexadecimal-system-base-16">Hexadecimal System (Base-16)<a hidden class="anchor" aria-hidden="true" href="#hexadecimal-system-base-16">#</a></h4>
+<p>Binary can get long and complex, so programmers often use the <strong>hexadecimal system</strong> (base-16) as a shorthand. Hex uses 16 digits: 0-9 and the letters A-F (representing 10-15).</p>
+<h5 id="example-2">Example:<a hidden class="anchor" aria-hidden="true" href="#example-2">#</a></h5>
+<ul>
+<li>The decimal number <strong>255</strong> is written as <strong>FF</strong> in hexadecimal:
+<ul>
+<li>$255_{10} = 15 \times 16^1 + 15 \times 16^0$</li>
+</ul>
+</li>
+</ul>
+<p>Hexadecimal simplifies reading large binary numbers because one hex digit represents four binary digits.</p>
+<h4 id="how-computers-represent-data">How Computers Represent Data<a hidden class="anchor" aria-hidden="true" href="#how-computers-represent-data">#</a></h4>
+<ol>
+<li>
+<p><strong>Text</strong>: Text is represented using binary codes, with each letter or symbol mapped to a specific sequence of bits. The most common standard is <strong>ASCII</strong> (American Standard Code for Information Interchange), where each character is assigned a number:</p>
+<ul>
+<li>Example: The letter ‘A’ is represented as <strong>65</strong> in decimal or <strong>01000001</strong> in binary.</li>
+</ul>
+</li>
+<li>
+<p><strong>Images</strong>: Digital images are made of pixels, and each pixel’s color is represented by binary values. In the simplest case, a black-and-white image uses 1 bit per pixel (0 for black, 1 for white). In colored images, each pixel uses a combination of binary numbers to represent shades of red, green, and blue.</p>
+</li>
+<li>
+<p><strong>Sound</strong>: Sound is captured as a series of samples (discrete points in time) and converted to binary. A common format is <strong>MP3</strong>, which compresses the binary data to save space while keeping the quality acceptable.</p>
+</li>
+</ol>
+<h4 id="why-binary">Why Binary?<a hidden class="anchor" aria-hidden="true" href="#why-binary">#</a></h4>
+<p>The binary system is efficient for computers because it aligns perfectly with their hardware:</p>
+<ul>
+<li><strong>Transistors</strong>: The basic building blocks of modern computers are transistors, which are either in an &ldquo;on&rdquo; (1) or &ldquo;off&rdquo; (0) state. This makes binary the natural choice for data representation.</li>
+<li><strong>Logic Gates</strong>: The fundamental operations computers perform (AND, OR, NOT) are easy to implement with binary logic.</li>
+</ul>
+<h4 id="tasks-for-today">Tasks for Today:<a hidden class="anchor" aria-hidden="true" href="#tasks-for-today">#</a></h4>
+<ol>
+<li><strong>Convert a few decimal numbers to binary</strong>. Try converting <strong>10</strong>, <strong>25</strong>, and <strong>50</strong> to binary.</li>
+<li><strong>Explore text encoding</strong>: Look up the ASCII codes for a few letters of your name and convert those to binary.</li>
+</ol>
+<h4 id="summary">Summary:<a hidden class="anchor" aria-hidden="true" href="#summary">#</a></h4>
+<ul>
+<li>Computers use the binary system to represent all types of data.</li>
+<li>Binary is based on two digits (0 and 1) and aligns with the on-off states of computer hardware.</li>
+<li>Hexadecimal provides a convenient way to represent large binary numbers.</li>
+<li>Text, images, and sound are all converted to binary for processing by computers.</li>
+</ul>
+<p>Tomorrow, we will explore computer architecture and the role of the CPU, memory, and storage.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="http://localhost:1313/">Shnycat Docs</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

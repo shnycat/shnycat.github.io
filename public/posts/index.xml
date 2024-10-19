@@ -4,10 +4,208 @@
     <title>Posts on Shnycat Docs</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Shnycat Docs</description>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 13:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2024 06:03:07 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rumus Dasar Geometri</title>
+      <link>http://localhost:1313/posts/geometri/rumus-dasar-geometri/</link>
+      <pubDate>Thu, 17 Oct 2024 06:03:07 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geometri/rumus-dasar-geometri/</guid>
+      <description>&lt;p&gt;Berikut adalah kumpulan &lt;strong&gt;rumus-rumus dasar dalam geometri&lt;/strong&gt; yang sering digunakan. Setiap bentuk memiliki rumus untuk menghitung &lt;strong&gt;luas&lt;/strong&gt;, &lt;strong&gt;keliling&lt;/strong&gt;, dan beberapa rumus lainnya.&lt;/p&gt;
+&lt;h3 id=&#34;1-persegi&#34;&gt;&lt;strong&gt;1. Persegi&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 4 \times s
+$$
+(dengan $ s $ adalah panjang sisi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = s^2
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-persegi-panjang&#34;&gt;&lt;strong&gt;2. Persegi Panjang&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \times (p + l)
+$$
+(dengan $ p $ adalah panjang dan $ l $ adalah lebar)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = p \times l
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-segitiga&#34;&gt;&lt;strong&gt;3. Segitiga&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = a + b + c
+$$
+(dengan $ a $, $ b $, dan $ c $ adalah panjang sisi-sisinya)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times a \times t
+$$
+(dengan $ a $ adalah alas, dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-lingkaran&#34;&gt;&lt;strong&gt;4. Lingkaran&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \pi r
+$$
+(dengan $ r $ adalah jari-jari)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \pi r^2
+$$
+(dengan $ r $ adalah jari-jari)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-jajar-genjang&#34;&gt;&lt;strong&gt;5. Jajar Genjang&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \times (a + b)
+$$
+(dengan $ a $ dan $ b $ adalah panjang sisi-sisinya)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = a \times t
+$$
+(dengan $ a $ adalah alas dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6-trapesium&#34;&gt;&lt;strong&gt;6. Trapesium&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = a + b + c + d
+$$
+(dengan $ a $, $ b $, $ c $, dan $ d $ adalah panjang sisi-sisinya)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times (a + b) \times t
+$$
+(dengan $ a $ dan $ b $ adalah panjang sisi sejajar, dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7-belah-ketupat&#34;&gt;&lt;strong&gt;7. Belah Ketupat&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 4 \times s
+$$
+(dengan $ s $ adalah panjang sisi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times d_1 \times d_2
+$$
+(dengan $ d_1 $ dan $ d_2 $ adalah diagonal-diagonalnya)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;8-layang-layang&#34;&gt;&lt;strong&gt;8. Layang-Layang&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \times (a + b)
+$$
+(dengan $ a $ dan $ b $ adalah panjang sisi-sisi yang berdekatan)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times d_1 \times d_2
+$$
+(dengan $ d_1 $ dan $ d_2 $ adalah diagonal-diagonalnya)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;9-prisma-segitiga&#34;&gt;&lt;strong&gt;9. Prisma Segitiga&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = Luas , Alas \times Tinggi , Prisma
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;10-balok&#34;&gt;&lt;strong&gt;10. Balok&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = p \times l \times t
+$$
+(dengan $ p $ adalah panjang, $ l $ adalah lebar, dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 2 \times (p \times l + p \times t + l \times t)
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;11-kubus&#34;&gt;&lt;strong&gt;11. Kubus&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = s^3
+$$
+(dengan $ s $ adalah panjang sisi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 6 \times s^2
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-tabung&#34;&gt;&lt;strong&gt;12. Tabung&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \pi r^2 \times t
+$$
+(dengan $ r $ adalah jari-jari dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 2 \pi r (r + t)
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-kerucut&#34;&gt;&lt;strong&gt;13. Kerucut&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \frac{1}{3} \pi r^2 \times t
+$$
+(dengan $ r $ adalah jari-jari dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = \pi r (r + s)
+$$
+(dengan $ r $ adalah jari-jari dan $ s $ adalah garis pelukis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;14-bola&#34;&gt;&lt;strong&gt;14. Bola&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \frac{4}{3} \pi r^3
+$$
+(dengan $ r $ adalah jari-jari)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 4 \pi r^2
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;15-limas-segi-empat&#34;&gt;&lt;strong&gt;15. Limas Segi Empat&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \frac{1}{3} \times Luas , Alas \times Tinggi
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ini adalah beberapa &lt;strong&gt;rumus dasar geometri&lt;/strong&gt; yang sering digunakan. Setiap rumus memiliki fungsi tersendiri untuk menghitung ukuran atau volume dari berbagai bentuk. Jika kamu membutuhkan penjelasan lebih lanjut atau contoh soal untuk setiap bentuk, jangan ragu untuk bertanya!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pengenalan Geometri</title>
+      <link>http://localhost:1313/posts/geometri/pengenalan-geometri/</link>
+      <pubDate>Thu, 17 Oct 2024 05:57:02 +0000</pubDate>
+      <guid>http://localhost:1313/posts/geometri/pengenalan-geometri/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Pengenalan Geometri: Dasar-Dasar dan Contoh Soal&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apa itu Geometri?&lt;/strong&gt;
+Geometri adalah cabang matematika yang mempelajari bentuk, ukuran, posisi relatif, dan sifat ruang. Kata &amp;ldquo;geometri&amp;rdquo; berasal dari bahasa Yunani &amp;ldquo;geo&amp;rdquo; yang berarti bumi, dan &amp;ldquo;metron&amp;rdquo; yang berarti pengukuran. Dalam sejarah, geometri digunakan untuk mengukur tanah, namun kini cakupannya telah berkembang ke banyak bidang seperti arsitektur, fisika, astronomi, dan bahkan grafis komputer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Konsep Dasar dalam Geometri:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Titik&lt;/strong&gt;: Titik adalah elemen dasar geometri yang tidak memiliki panjang, lebar, atau tinggi. Titik dilambangkan dengan huruf besar, seperti $ A $.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Limit Soal Cerita</title>
       <link>http://localhost:1313/posts/kalkulus/limit-soal-cerita/</link>
@@ -90,7 +288,7 @@ Limit mengukur apa yang terjadi pada nilai suatu fungsi saat variabelnya mendeka
       <link>http://localhost:1313/posts/kalkulus/apa-itu-limit/</link>
       <pubDate>Tue, 15 Oct 2024 19:06:48 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/apa-itu-limit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&amp;ldquo;Apa Itu Limit? Rahasia Di Balik Perubahan yang Tak Terlihat!&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Rahasia Di Balik Perubahan yang Tak Terlihat!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Kamu mungkin bertanya-tanya, apa sih yang spesial dari &lt;strong&gt;limit&lt;/strong&gt; dalam matematika? Limit adalah konsep dasar yang luar biasa di kalkulus, membantu kita memahami hal-hal yang tidak bisa kita lihat secara langsung! 🚀&lt;/p&gt;
 &lt;p&gt;✨ &lt;strong&gt;Apa itu Limit?&lt;/strong&gt;
 Limit adalah cara matematika untuk menjawab pertanyaan: “Apa yang terjadi saat sesuatu &lt;em&gt;mendekati&lt;/em&gt; nilai tertentu?” Misalnya, bayangkan kamu semakin mendekati ujung tebing. Limit membantu kita memahami apa yang terjadi pada kecepatanmu, posisimu, bahkan arah gerakanmu tanpa harus benar-benar jatuh dari tebingnya!&lt;/p&gt;</description>
@@ -161,14 +359,18 @@ Limit adalah cara matematika untuk menjawab pertanyaan: “Apa yang terjadi saat
 &lt;p&gt;&lt;strong&gt;Kesulitan Memahami Turunan dan Integral&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kenapa Kalkulus?</title>
+      <title>Kalkulus?</title>
       <link>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</link>
       <pubDate>Tue, 15 Oct 2024 18:40:35 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&amp;ldquo;Kenapa Kalkulus Itu Keren dan Penting?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Jika kamu pernah mendengar kata &lt;strong&gt;kalkulus&lt;/strong&gt; dan langsung merasa takut, kamu tidak sendirian! Tapi tahukah kamu, kalkulus bukan hanya tentang simbol rumit dan grafik berliku-liku. Kalkulus adalah bahasa yang digunakan untuk memahami perubahan dan gerakan—dari hal kecil seperti tetesan air yang jatuh, hingga hal besar seperti orbit planet!&lt;/p&gt;
+      <description>&lt;p&gt;Jika kamu pernah mendengar kata &lt;strong&gt;kalkulus&lt;/strong&gt; dan langsung merasa takut, kamu tidak sendirian! Tapi tahukah kamu, kalkulus bukan hanya tentang simbol rumit dan grafik berliku-liku. Kalkulus adalah bahasa yang digunakan untuk memahami perubahan dan gerakan—dari hal kecil seperti tetesan air yang jatuh, hingga hal besar seperti orbit planet!&lt;/p&gt;
 &lt;p&gt;🌟 &lt;strong&gt;Apa itu Kalkulus?&lt;/strong&gt;
-Kalkulus adalah cabang matematika yang berfokus pada &lt;em&gt;perubahan&lt;/em&gt; dan &lt;em&gt;luas&lt;/em&gt;. Dua konsep utama kalkulus adalah:&lt;/p&gt;</description>
+Kalkulus adalah cabang matematika yang berfokus pada &lt;em&gt;perubahan&lt;/em&gt; dan &lt;em&gt;luas&lt;/em&gt;. Dua konsep utama kalkulus adalah:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Turunan&lt;/strong&gt; (Derivative) – Menjelaskan laju perubahan. Bayangkan kamu sedang lari, kalkulus bisa membantu menghitung seberapa cepat kecepatannya berubah setiap detik!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integral&lt;/strong&gt; – Menghitung total perubahan atau akumulasi, seperti berapa banyak air yang terisi di kolam setelah satu jam.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;🎯 &lt;strong&gt;Kenapa Kamu Perlu Peduli?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bagaimana Memulai Belajar Kalkulus?</title>
