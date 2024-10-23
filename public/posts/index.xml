@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Shnycat Docs</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Shnycat Docs</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Oct 2024 00:37:24 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,105 +13,489 @@
       <link>http://localhost:1313/posts/trigonometri/latihan-trigo/</link>
       <pubDate>Wed, 23 Oct 2024 00:37:24 +0000</pubDate>
       <guid>http://localhost:1313/posts/trigonometri/latihan-trigo/</guid>
-      <description>&lt;h4 id=&#34;1-fungsi-dasar-trigonometri&#34;&gt;&lt;strong&gt;1. Fungsi Dasar Trigonometri&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Soal 1:&lt;/strong&gt;&lt;br&gt;&#xA;Diketahui segitiga siku-siku dengan sudut $ \theta $, sisi depan $ 5 , \text{cm} $, dan sisi miring $ 13 , \text{cm} $. Tentukan nilai $ \sin \theta $, $ \cos \theta $, dan $ \tan \theta $.&lt;/p&gt;&#xA;&lt;h4 id=&#34;2-identitas-trigonometri&#34;&gt;&lt;strong&gt;2. Identitas Trigonometri&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Soal 2:&lt;/strong&gt;&lt;br&gt;&#xA;Buktikan identitas trigonometri berikut:&#xA;$$&#xA;\sin^2 \theta + \cos^2 \theta = 1&#xA;$$&#xA;untuk $ \theta = 30^\circ $.&lt;/p&gt;&#xA;&lt;h4 id=&#34;3-grafik-fungsi-trigonometri&#34;&gt;&lt;strong&gt;3. Grafik Fungsi Trigonometri&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;Soal 3:&lt;/strong&gt;&lt;br&gt;&#xA;Gambarkan grafik fungsi $ y = \sin x $ untuk $ 0^\circ \leq x \leq 360^\circ $. Tentukan juga nilai maksimum dan minimum dari grafik tersebut.&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;1-fungsi-dasar-trigonometri&#34;&gt;&lt;strong&gt;1. Fungsi Dasar Trigonometri&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Soal 1:&lt;/strong&gt;&lt;br&gt;
+Diketahui segitiga siku-siku dengan sudut $ \theta $, sisi depan $ 5 , \text{cm} $, dan sisi miring $ 13 , \text{cm} $. Tentukan nilai $ \sin \theta $, $ \cos \theta $, dan $ \tan \theta $.&lt;/p&gt;
+&lt;h4 id=&#34;2-identitas-trigonometri&#34;&gt;&lt;strong&gt;2. Identitas Trigonometri&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Soal 2:&lt;/strong&gt;&lt;br&gt;
+Buktikan identitas trigonometri berikut:
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+$$
+untuk $ \theta = 30^\circ $.&lt;/p&gt;
+&lt;h4 id=&#34;3-grafik-fungsi-trigonometri&#34;&gt;&lt;strong&gt;3. Grafik Fungsi Trigonometri&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Soal 3:&lt;/strong&gt;&lt;br&gt;
+Gambarkan grafik fungsi $ y = \sin x $ untuk $ 0^\circ \leq x \leq 360^\circ $. Tentukan juga nilai maksimum dan minimum dari grafik tersebut.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pengenalan Trigo</title>
       <link>http://localhost:1313/posts/trigonometri/pengenalan-trigo/</link>
       <pubDate>Wed, 23 Oct 2024 00:37:24 +0000</pubDate>
       <guid>http://localhost:1313/posts/trigonometri/pengenalan-trigo/</guid>
-      <description>&lt;h3 id=&#34;apa-itu-trigonometri&#34;&gt;Apa Itu Trigonometri?&lt;/h3&gt;&#xA;&lt;p&gt;Trigonometri adalah cabang matematika yang mempelajari hubungan antara sudut dan sisi dalam segitiga, terutama segitiga siku-siku. Fungsi-fungsi dasar trigonometri adalah &lt;strong&gt;sine (sin)&lt;/strong&gt;, &lt;strong&gt;cosine (cos)&lt;/strong&gt;, dan &lt;strong&gt;tangent (tan)&lt;/strong&gt;, yang digunakan untuk menghitung perbandingan antara sisi-sisi segitiga. Misalnya, &lt;strong&gt;sin&lt;/strong&gt; dari suatu sudut adalah perbandingan antara sisi di depan sudut tersebut dengan sisi miring (hipotenusa).&lt;/p&gt;&#xA;&lt;p&gt;Trigonometri banyak digunakan dalam berbagai bidang seperti fisika, arsitektur, dan navigasi, membantu kita memahami dan memecahkan masalah yang melibatkan sudut dan jarak.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;apa-itu-trigonometri&#34;&gt;Apa Itu Trigonometri?&lt;/h3&gt;
+&lt;p&gt;Trigonometri adalah cabang matematika yang mempelajari hubungan antara sudut dan sisi dalam segitiga, terutama segitiga siku-siku. Fungsi-fungsi dasar trigonometri adalah &lt;strong&gt;sine (sin)&lt;/strong&gt;, &lt;strong&gt;cosine (cos)&lt;/strong&gt;, dan &lt;strong&gt;tangent (tan)&lt;/strong&gt;, yang digunakan untuk menghitung perbandingan antara sisi-sisi segitiga. Misalnya, &lt;strong&gt;sin&lt;/strong&gt; dari suatu sudut adalah perbandingan antara sisi di depan sudut tersebut dengan sisi miring (hipotenusa).&lt;/p&gt;
+&lt;p&gt;Trigonometri banyak digunakan dalam berbagai bidang seperti fisika, arsitektur, dan navigasi, membantu kita memahami dan memecahkan masalah yang melibatkan sudut dan jarak.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aarch64 Syscalls</title>
       <link>http://localhost:1313/posts/aarch64-syscalls/</link>
       <pubDate>Mon, 21 Oct 2024 11:08:36 +0000</pubDate>
       <guid>http://localhost:1313/posts/aarch64-syscalls/</guid>
-      <description>&lt;p&gt;Here is a list of common system calls (syscalls) for AArch64 architecture along with their syscall numbers:&lt;/p&gt;&#xA;&lt;h3 id=&#34;process-management&#34;&gt;Process Management&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_exit&lt;/code&gt; (93): Exit a program.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_fork&lt;/code&gt; (220): Fork a process.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_execve&lt;/code&gt; (221): Execute a program.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_wait4&lt;/code&gt; (260): Wait for a child process.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;file-operations&#34;&gt;File Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_read&lt;/code&gt; (63): Read from a file.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_write&lt;/code&gt; (64): Write to a file.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_openat&lt;/code&gt; (56): Open a file.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_close&lt;/code&gt; (57): Close a file.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_lseek&lt;/code&gt; (62): Set the file offset.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_statx&lt;/code&gt; (291): Get file status.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;memory-management&#34;&gt;Memory Management&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_brk&lt;/code&gt; (214): Change data segment size.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_mmap&lt;/code&gt; (222): Map memory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_munmap&lt;/code&gt; (215): Unmap memory.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;file-system-operations&#34;&gt;File System Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_chdir&lt;/code&gt; (49): Change current working directory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_mkdirat&lt;/code&gt; (34): Create a directory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_rmdir&lt;/code&gt; (84): Remove a directory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_unlinkat&lt;/code&gt; (35): Delete a file.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_renameat&lt;/code&gt; (38): Rename a file.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;io-operations&#34;&gt;I/O Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_ioctl&lt;/code&gt; (29): Control a device.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_fcntl&lt;/code&gt; (25): File control operations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;network&#34;&gt;Network&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_socket&lt;/code&gt; (198): Create a socket.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_connect&lt;/code&gt; (203): Connect to a remote socket.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_bind&lt;/code&gt; (200): Bind a name to a socket.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_sendto&lt;/code&gt; (206): Send a message on a socket.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_recvfrom&lt;/code&gt; (207): Receive a message from a socket.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_accept&lt;/code&gt; (202): Accept a socket connection.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;time-management&#34;&gt;Time Management&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_nanosleep&lt;/code&gt; (101): Sleep for a certain number of nanoseconds.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_gettimeofday&lt;/code&gt; (169): Get the current time.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_settimeofday&lt;/code&gt; (170): Set the current time.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_getpid&lt;/code&gt; (172): Get process ID.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_getppid&lt;/code&gt; (173): Get parent process ID.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_kill&lt;/code&gt; (129): Send a signal to a process.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_getuid&lt;/code&gt; (174): Get user ID.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sys_getgid&lt;/code&gt; (176): Get group ID.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To use these syscalls in assembly code, you load the corresponding syscall ID into register &lt;code&gt;x8&lt;/code&gt;, and the appropriate arguments into registers &lt;code&gt;x0&lt;/code&gt; to &lt;code&gt;x7&lt;/code&gt;, then call &lt;code&gt;svc 0&lt;/code&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Here is a list of common system calls (syscalls) for AArch64 architecture along with their syscall numbers:&lt;/p&gt;
+&lt;h3 id=&#34;process-management&#34;&gt;Process Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_exit&lt;/code&gt; (93): Exit a program.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_fork&lt;/code&gt; (220): Fork a process.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_execve&lt;/code&gt; (221): Execute a program.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_wait4&lt;/code&gt; (260): Wait for a child process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;file-operations&#34;&gt;File Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_read&lt;/code&gt; (63): Read from a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_write&lt;/code&gt; (64): Write to a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_openat&lt;/code&gt; (56): Open a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_close&lt;/code&gt; (57): Close a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_lseek&lt;/code&gt; (62): Set the file offset.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_statx&lt;/code&gt; (291): Get file status.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;memory-management&#34;&gt;Memory Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_brk&lt;/code&gt; (214): Change data segment size.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_mmap&lt;/code&gt; (222): Map memory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_munmap&lt;/code&gt; (215): Unmap memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;file-system-operations&#34;&gt;File System Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_chdir&lt;/code&gt; (49): Change current working directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_mkdirat&lt;/code&gt; (34): Create a directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_rmdir&lt;/code&gt; (84): Remove a directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_unlinkat&lt;/code&gt; (35): Delete a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_renameat&lt;/code&gt; (38): Rename a file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;io-operations&#34;&gt;I/O Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_ioctl&lt;/code&gt; (29): Control a device.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_fcntl&lt;/code&gt; (25): File control operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;network&#34;&gt;Network&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_socket&lt;/code&gt; (198): Create a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_connect&lt;/code&gt; (203): Connect to a remote socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_bind&lt;/code&gt; (200): Bind a name to a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_sendto&lt;/code&gt; (206): Send a message on a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_recvfrom&lt;/code&gt; (207): Receive a message from a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_accept&lt;/code&gt; (202): Accept a socket connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;time-management&#34;&gt;Time Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_nanosleep&lt;/code&gt; (101): Sleep for a certain number of nanoseconds.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_gettimeofday&lt;/code&gt; (169): Get the current time.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_settimeofday&lt;/code&gt; (170): Set the current time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_getpid&lt;/code&gt; (172): Get process ID.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_getppid&lt;/code&gt; (173): Get parent process ID.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_kill&lt;/code&gt; (129): Send a signal to a process.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_getuid&lt;/code&gt; (174): Get user ID.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_getgid&lt;/code&gt; (176): Get group ID.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To use these syscalls in assembly code, you load the corresponding syscall ID into register &lt;code&gt;x8&lt;/code&gt;, and the appropriate arguments into registers &lt;code&gt;x0&lt;/code&gt; to &lt;code&gt;x7&lt;/code&gt;, then call &lt;code&gt;svc 0&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rumus Dasar Geometri</title>
       <link>http://localhost:1313/posts/geometri/rumus-dasar-geometri/</link>
       <pubDate>Thu, 17 Oct 2024 06:03:07 +0000</pubDate>
       <guid>http://localhost:1313/posts/geometri/rumus-dasar-geometri/</guid>
-      <description>&lt;p&gt;Berikut adalah kumpulan &lt;strong&gt;rumus-rumus dasar dalam geometri&lt;/strong&gt; yang sering digunakan. Setiap bentuk memiliki rumus untuk menghitung &lt;strong&gt;luas&lt;/strong&gt;, &lt;strong&gt;keliling&lt;/strong&gt;, dan beberapa rumus lainnya.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-persegi&#34;&gt;&lt;strong&gt;1. Persegi&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = 4 \times s&#xA;$$&#xA;(dengan $ s $ adalah panjang sisi)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = s^2&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-persegi-panjang&#34;&gt;&lt;strong&gt;2. Persegi Panjang&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = 2 \times (p + l)&#xA;$$&#xA;(dengan $ p $ adalah panjang dan $ l $ adalah lebar)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = p \times l&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-segitiga&#34;&gt;&lt;strong&gt;3. Segitiga&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = a + b + c&#xA;$$&#xA;(dengan $ a $, $ b $, dan $ c $ adalah panjang sisi-sisinya)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = \frac{1}{2} \times a \times t&#xA;$$&#xA;(dengan $ a $ adalah alas, dan $ t $ adalah tinggi)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-lingkaran&#34;&gt;&lt;strong&gt;4. Lingkaran&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = 2 \pi r&#xA;$$&#xA;(dengan $ r $ adalah jari-jari)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = \pi r^2&#xA;$$&#xA;(dengan $ r $ adalah jari-jari)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;5-jajar-genjang&#34;&gt;&lt;strong&gt;5. Jajar Genjang&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = 2 \times (a + b)&#xA;$$&#xA;(dengan $ a $ dan $ b $ adalah panjang sisi-sisinya)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = a \times t&#xA;$$&#xA;(dengan $ a $ adalah alas dan $ t $ adalah tinggi)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;6-trapesium&#34;&gt;&lt;strong&gt;6. Trapesium&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = a + b + c + d&#xA;$$&#xA;(dengan $ a $, $ b $, $ c $, dan $ d $ adalah panjang sisi-sisinya)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = \frac{1}{2} \times (a + b) \times t&#xA;$$&#xA;(dengan $ a $ dan $ b $ adalah panjang sisi sejajar, dan $ t $ adalah tinggi)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;7-belah-ketupat&#34;&gt;&lt;strong&gt;7. Belah Ketupat&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = 4 \times s&#xA;$$&#xA;(dengan $ s $ adalah panjang sisi)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = \frac{1}{2} \times d_1 \times d_2&#xA;$$&#xA;(dengan $ d_1 $ dan $ d_2 $ adalah diagonal-diagonalnya)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;8-layang-layang&#34;&gt;&lt;strong&gt;8. Layang-Layang&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:&#xA;$$&#xA;K = 2 \times (a + b)&#xA;$$&#xA;(dengan $ a $ dan $ b $ adalah panjang sisi-sisi yang berdekatan)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:&#xA;$$&#xA;L = \frac{1}{2} \times d_1 \times d_2&#xA;$$&#xA;(dengan $ d_1 $ dan $ d_2 $ adalah diagonal-diagonalnya)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;9-prisma-segitiga&#34;&gt;&lt;strong&gt;9. Prisma Segitiga&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:&#xA;$$&#xA;V = Luas , Alas \times Tinggi , Prisma&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;10-balok&#34;&gt;&lt;strong&gt;10. Balok&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:&#xA;$$&#xA;V = p \times l \times t&#xA;$$&#xA;(dengan $ p $ adalah panjang, $ l $ adalah lebar, dan $ t $ adalah tinggi)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:&#xA;$$&#xA;L = 2 \times (p \times l + p \times t + l \times t)&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;11-kubus&#34;&gt;&lt;strong&gt;11. Kubus&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:&#xA;$$&#xA;V = s^3&#xA;$$&#xA;(dengan $ s $ adalah panjang sisi)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:&#xA;$$&#xA;L = 6 \times s^2&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;12-tabung&#34;&gt;&lt;strong&gt;12. Tabung&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:&#xA;$$&#xA;V = \pi r^2 \times t&#xA;$$&#xA;(dengan $ r $ adalah jari-jari dan $ t $ adalah tinggi)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:&#xA;$$&#xA;L = 2 \pi r (r + t)&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;13-kerucut&#34;&gt;&lt;strong&gt;13. Kerucut&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:&#xA;$$&#xA;V = \frac{1}{3} \pi r^2 \times t&#xA;$$&#xA;(dengan $ r $ adalah jari-jari dan $ t $ adalah tinggi)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:&#xA;$$&#xA;L = \pi r (r + s)&#xA;$$&#xA;(dengan $ r $ adalah jari-jari dan $ s $ adalah garis pelukis)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;14-bola&#34;&gt;&lt;strong&gt;14. Bola&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:&#xA;$$&#xA;V = \frac{4}{3} \pi r^3&#xA;$$&#xA;(dengan $ r $ adalah jari-jari)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:&#xA;$$&#xA;L = 4 \pi r^2&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;15-limas-segi-empat&#34;&gt;&lt;strong&gt;15. Limas Segi Empat&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:&#xA;$$&#xA;V = \frac{1}{3} \times Luas , Alas \times Tinggi&#xA;$$&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ini adalah beberapa &lt;strong&gt;rumus dasar geometri&lt;/strong&gt; yang sering digunakan. Setiap rumus memiliki fungsi tersendiri untuk menghitung ukuran atau volume dari berbagai bentuk. Jika kamu membutuhkan penjelasan lebih lanjut atau contoh soal untuk setiap bentuk, jangan ragu untuk bertanya!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Berikut adalah kumpulan &lt;strong&gt;rumus-rumus dasar dalam geometri&lt;/strong&gt; yang sering digunakan. Setiap bentuk memiliki rumus untuk menghitung &lt;strong&gt;luas&lt;/strong&gt;, &lt;strong&gt;keliling&lt;/strong&gt;, dan beberapa rumus lainnya.&lt;/p&gt;
+&lt;h3 id=&#34;1-persegi&#34;&gt;&lt;strong&gt;1. Persegi&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 4 \times s
+$$
+(dengan $ s $ adalah panjang sisi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = s^2
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-persegi-panjang&#34;&gt;&lt;strong&gt;2. Persegi Panjang&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \times (p + l)
+$$
+(dengan $ p $ adalah panjang dan $ l $ adalah lebar)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = p \times l
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3-segitiga&#34;&gt;&lt;strong&gt;3. Segitiga&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = a + b + c
+$$
+(dengan $ a $, $ b $, dan $ c $ adalah panjang sisi-sisinya)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times a \times t
+$$
+(dengan $ a $ adalah alas, dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-lingkaran&#34;&gt;&lt;strong&gt;4. Lingkaran&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \pi r
+$$
+(dengan $ r $ adalah jari-jari)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \pi r^2
+$$
+(dengan $ r $ adalah jari-jari)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;5-jajar-genjang&#34;&gt;&lt;strong&gt;5. Jajar Genjang&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \times (a + b)
+$$
+(dengan $ a $ dan $ b $ adalah panjang sisi-sisinya)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = a \times t
+$$
+(dengan $ a $ adalah alas dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;6-trapesium&#34;&gt;&lt;strong&gt;6. Trapesium&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = a + b + c + d
+$$
+(dengan $ a $, $ b $, $ c $, dan $ d $ adalah panjang sisi-sisinya)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times (a + b) \times t
+$$
+(dengan $ a $ dan $ b $ adalah panjang sisi sejajar, dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;7-belah-ketupat&#34;&gt;&lt;strong&gt;7. Belah Ketupat&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 4 \times s
+$$
+(dengan $ s $ adalah panjang sisi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times d_1 \times d_2
+$$
+(dengan $ d_1 $ dan $ d_2 $ adalah diagonal-diagonalnya)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;8-layang-layang&#34;&gt;&lt;strong&gt;8. Layang-Layang&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Keliling&lt;/strong&gt;:
+$$
+K = 2 \times (a + b)
+$$
+(dengan $ a $ dan $ b $ adalah panjang sisi-sisi yang berdekatan)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas&lt;/strong&gt;:
+$$
+L = \frac{1}{2} \times d_1 \times d_2
+$$
+(dengan $ d_1 $ dan $ d_2 $ adalah diagonal-diagonalnya)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;9-prisma-segitiga&#34;&gt;&lt;strong&gt;9. Prisma Segitiga&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = Luas , Alas \times Tinggi , Prisma
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;10-balok&#34;&gt;&lt;strong&gt;10. Balok&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = p \times l \times t
+$$
+(dengan $ p $ adalah panjang, $ l $ adalah lebar, dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 2 \times (p \times l + p \times t + l \times t)
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;11-kubus&#34;&gt;&lt;strong&gt;11. Kubus&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = s^3
+$$
+(dengan $ s $ adalah panjang sisi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 6 \times s^2
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12-tabung&#34;&gt;&lt;strong&gt;12. Tabung&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \pi r^2 \times t
+$$
+(dengan $ r $ adalah jari-jari dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 2 \pi r (r + t)
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;13-kerucut&#34;&gt;&lt;strong&gt;13. Kerucut&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \frac{1}{3} \pi r^2 \times t
+$$
+(dengan $ r $ adalah jari-jari dan $ t $ adalah tinggi)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = \pi r (r + s)
+$$
+(dengan $ r $ adalah jari-jari dan $ s $ adalah garis pelukis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;14-bola&#34;&gt;&lt;strong&gt;14. Bola&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \frac{4}{3} \pi r^3
+$$
+(dengan $ r $ adalah jari-jari)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Luas Permukaan&lt;/strong&gt;:
+$$
+L = 4 \pi r^2
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;15-limas-segi-empat&#34;&gt;&lt;strong&gt;15. Limas Segi Empat&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Volume&lt;/strong&gt;:
+$$
+V = \frac{1}{3} \times Luas , Alas \times Tinggi
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ini adalah beberapa &lt;strong&gt;rumus dasar geometri&lt;/strong&gt; yang sering digunakan. Setiap rumus memiliki fungsi tersendiri untuk menghitung ukuran atau volume dari berbagai bentuk. Jika kamu membutuhkan penjelasan lebih lanjut atau contoh soal untuk setiap bentuk, jangan ragu untuk bertanya!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pengenalan Geometri</title>
       <link>http://localhost:1313/posts/geometri/pengenalan-geometri/</link>
       <pubDate>Thu, 17 Oct 2024 05:57:02 +0000</pubDate>
       <guid>http://localhost:1313/posts/geometri/pengenalan-geometri/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Pengenalan Geometri: Dasar-Dasar dan Contoh Soal&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Apa itu Geometri?&lt;/strong&gt;&#xA;Geometri adalah cabang matematika yang mempelajari bentuk, ukuran, posisi relatif, dan sifat ruang. Kata &amp;ldquo;geometri&amp;rdquo; berasal dari bahasa Yunani &amp;ldquo;geo&amp;rdquo; yang berarti bumi, dan &amp;ldquo;metron&amp;rdquo; yang berarti pengukuran. Dalam sejarah, geometri digunakan untuk mengukur tanah, namun kini cakupannya telah berkembang ke banyak bidang seperti arsitektur, fisika, astronomi, dan bahkan grafis komputer.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Konsep Dasar dalam Geometri:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Titik&lt;/strong&gt;: Titik adalah elemen dasar geometri yang tidak memiliki panjang, lebar, atau tinggi. Titik dilambangkan dengan huruf besar, seperti $ A $.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Pengenalan Geometri: Dasar-Dasar dan Contoh Soal&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Apa itu Geometri?&lt;/strong&gt;
+Geometri adalah cabang matematika yang mempelajari bentuk, ukuran, posisi relatif, dan sifat ruang. Kata &amp;ldquo;geometri&amp;rdquo; berasal dari bahasa Yunani &amp;ldquo;geo&amp;rdquo; yang berarti bumi, dan &amp;ldquo;metron&amp;rdquo; yang berarti pengukuran. Dalam sejarah, geometri digunakan untuk mengukur tanah, namun kini cakupannya telah berkembang ke banyak bidang seperti arsitektur, fisika, astronomi, dan bahkan grafis komputer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Konsep Dasar dalam Geometri:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Titik&lt;/strong&gt;: Titik adalah elemen dasar geometri yang tidak memiliki panjang, lebar, atau tinggi. Titik dilambangkan dengan huruf besar, seperti $ A $.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Limit Soal Cerita</title>
       <link>http://localhost:1313/posts/kalkulus/limit-soal-cerita/</link>
       <pubDate>Wed, 16 Oct 2024 13:10:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/limit-soal-cerita/</guid>
-      <description>&lt;p&gt;Berikut adalah 5 soal cerita tentang limit beserta jawabannya:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-soal-kecepatan-perjalanan&#34;&gt;1. &lt;strong&gt;Soal: Kecepatan Perjalanan&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Sebuah mobil bergerak dari kota A ke kota B dengan kecepatan yang semakin bertambah secara linear dari 40 km/jam hingga 80 km/jam dalam waktu 2 jam. Berapakah limit kecepatan rata-rata mobil saat mobil mendekati titik 2 jam?&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Jawaban&lt;/strong&gt;:&#xA;Kecepatan rata-rata dihitung sebagai perubahan jarak dibagi dengan perubahan waktu. Secara matematis, jika kecepatan bertambah linear dari 40 km/jam ke 80 km/jam selama 2 jam, maka kita dapat menggunakan rumus limit untuk menghitung kecepatan rata-rata saat mendekati 2 jam:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Berikut adalah 5 soal cerita tentang limit beserta jawabannya:&lt;/p&gt;
+&lt;h3 id=&#34;1-soal-kecepatan-perjalanan&#34;&gt;1. &lt;strong&gt;Soal: Kecepatan Perjalanan&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Sebuah mobil bergerak dari kota A ke kota B dengan kecepatan yang semakin bertambah secara linear dari 40 km/jam hingga 80 km/jam dalam waktu 2 jam. Berapakah limit kecepatan rata-rata mobil saat mobil mendekati titik 2 jam?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jawaban&lt;/strong&gt;:
+Kecepatan rata-rata dihitung sebagai perubahan jarak dibagi dengan perubahan waktu. Secara matematis, jika kecepatan bertambah linear dari 40 km/jam ke 80 km/jam selama 2 jam, maka kita dapat menggunakan rumus limit untuk menghitung kecepatan rata-rata saat mendekati 2 jam:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Latihan Limit</title>
       <link>http://localhost:1313/posts/kalkulus/latihan-limit/</link>
       <pubDate>Wed, 16 Oct 2024 12:59:54 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/latihan-limit/</guid>
-      <description>&lt;p&gt;Berikut adalah 30 soal tentang limit, dimulai dari yang mudah hingga yang rumit:&lt;/p&gt;&#xA;&lt;h3 id=&#34;soal-mudah&#34;&gt;Soal Mudah:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 2} (3x + 5) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 1} (x^2 + 4x) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 3} (x^2 - 9) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to -1} (x^2 + 2x + 1) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} (x + 7) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 2} (5x^2 - 3x) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to -2} (x^3 + 4x^2 + 3x) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 1} \frac{2x + 3}{x - 1} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} (x^2 + 4) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 4} (x - 2)(x + 3) $.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;soal-sedang&#34;&gt;Soal Sedang:&lt;/h3&gt;&#xA;&lt;ol start=&#34;11&#34;&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x^2 + 3x}{x} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{x^2 - 4}{x - 2} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x}{\sin x} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{3x + 5}{x - 1} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to -1} \frac{x^2 - 1}{x + 1} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 1} \frac{x^3 - 1}{x - 1} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{(x^2 - 4)(x + 2)}{x - 2} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{e^x - 1}{x} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{\ln(1 + x)}{x} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0^+} \frac{1}{x} $.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;soal-menengah&#34;&gt;Soal Menengah:&lt;/h3&gt;&#xA;&lt;ol start=&#34;21&#34;&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{x^2 + 3x + 1}{x + 5} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{1 - \cos x}{x^2} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 3} \frac{x^3 - 27}{x - 3} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0^+} x \ln(x) $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{5x^3 + 4x^2 - x}{2x^3 - 3x^2 + 6} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{\tan x}{x} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x - \sin x}{x^3} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{(x - 2)^2}{x - 2} $.&lt;/li&gt;&#xA;&lt;li&gt;Tentukan $ \lim_{x \to \infty} \left( x - \sqrt{x^2 + x} \right) $.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Soal-soal ini mencakup berbagai konsep limit, mulai dari fungsi sederhana, fungsi rasional, hingga soal yang melibatkan limit menuju tak hingga, fungsi trigonometri, eksponensial, dan logaritma.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Berikut adalah 30 soal tentang limit, dimulai dari yang mudah hingga yang rumit:&lt;/p&gt;
+&lt;h3 id=&#34;soal-mudah&#34;&gt;Soal Mudah:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} (3x + 5) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 1} (x^2 + 4x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 3} (x^2 - 9) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to -1} (x^2 + 2x + 1) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} (x + 7) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} (5x^2 - 3x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to -2} (x^3 + 4x^2 + 3x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 1} \frac{2x + 3}{x - 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} (x^2 + 4) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 4} (x - 2)(x + 3) $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;soal-sedang&#34;&gt;Soal Sedang:&lt;/h3&gt;
+&lt;ol start=&#34;11&#34;&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x^2 + 3x}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{x^2 - 4}{x - 2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x}{\sin x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{3x + 5}{x - 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to -1} \frac{x^2 - 1}{x + 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 1} \frac{x^3 - 1}{x - 1} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{(x^2 - 4)(x + 2)}{x - 2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{e^x - 1}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{\ln(1 + x)}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0^+} \frac{1}{x} $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;soal-menengah&#34;&gt;Soal Menengah:&lt;/h3&gt;
+&lt;ol start=&#34;21&#34;&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{x^2 + 3x + 1}{x + 5} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{1 - \cos x}{x^2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 3} \frac{x^3 - 27}{x - 3} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0^+} x \ln(x) $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \frac{5x^3 + 4x^2 - x}{2x^3 - 3x^2 + 6} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{\tan x}{x} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \left( 1 + \frac{1}{x} \right)^x $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 0} \frac{x - \sin x}{x^3} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to 2} \frac{(x - 2)^2}{x - 2} $.&lt;/li&gt;
+&lt;li&gt;Tentukan $ \lim_{x \to \infty} \left( x - \sqrt{x^2 + x} \right) $.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;Soal-soal ini mencakup berbagai konsep limit, mulai dari fungsi sederhana, fungsi rasional, hingga soal yang melibatkan limit menuju tak hingga, fungsi trigonometri, eksponensial, dan logaritma.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rangkuman Limit</title>
       <link>http://localhost:1313/posts/kalkulus/rangkuman-limit/</link>
       <pubDate>Wed, 16 Oct 2024 12:50:07 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/rangkuman-limit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Limit&lt;/strong&gt; adalah konsep dalam matematika yang menggambarkan nilai yang didekati oleh suatu fungsi atau urutan saat variabel mendekati titik tertentu. Meski fungsi atau nilai tidak pernah benar-benar mencapai titik itu, limit membantu kita memahami apa yang terjadi “saat mendekati” titik tersebut.&lt;/p&gt;&#xA;&lt;h3 id=&#34;rangkuman-konsep-limit&#34;&gt;Rangkuman Konsep Limit:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Limit dari Fungsi&lt;/strong&gt;:&#xA;Limit mengukur apa yang terjadi pada nilai suatu fungsi saat variabelnya mendekati angka tertentu.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jika $ f(x) $ adalah fungsi, maka limit $ x \to a $ dari $ f(x) $ (ditulis $ \lim_{x \to a} f(x) $) adalah nilai yang mendekati fungsi $ f(x) $ saat $ x $ mendekati $ a $.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Limit dari Kiri dan Kanan&lt;/strong&gt;:&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Limit&lt;/strong&gt; adalah konsep dalam matematika yang menggambarkan nilai yang didekati oleh suatu fungsi atau urutan saat variabel mendekati titik tertentu. Meski fungsi atau nilai tidak pernah benar-benar mencapai titik itu, limit membantu kita memahami apa yang terjadi “saat mendekati” titik tersebut.&lt;/p&gt;
+&lt;h3 id=&#34;rangkuman-konsep-limit&#34;&gt;Rangkuman Konsep Limit:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Limit dari Fungsi&lt;/strong&gt;:
+Limit mengukur apa yang terjadi pada nilai suatu fungsi saat variabelnya mendekati angka tertentu.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jika $ f(x) $ adalah fungsi, maka limit $ x \to a $ dari $ f(x) $ (ditulis $ \lim_{x \to a} f(x) $) adalah nilai yang mendekati fungsi $ f(x) $ saat $ x $ mendekati $ a $.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Limit dari Kiri dan Kanan&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apa Itu Limit</title>
       <link>http://localhost:1313/posts/kalkulus/apa-itu-limit/</link>
       <pubDate>Tue, 15 Oct 2024 19:06:48 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/apa-itu-limit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Rahasia Di Balik Perubahan yang Tak Terlihat!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kamu mungkin bertanya-tanya, apa sih yang spesial dari &lt;strong&gt;limit&lt;/strong&gt; dalam matematika? Limit adalah konsep dasar yang luar biasa di kalkulus, membantu kita memahami hal-hal yang tidak bisa kita lihat secara langsung! 🚀&lt;/p&gt;&#xA;&lt;p&gt;✨ &lt;strong&gt;Apa itu Limit?&lt;/strong&gt;&#xA;Limit adalah cara matematika untuk menjawab pertanyaan: “Apa yang terjadi saat sesuatu &lt;em&gt;mendekati&lt;/em&gt; nilai tertentu?” Misalnya, bayangkan kamu semakin mendekati ujung tebing. Limit membantu kita memahami apa yang terjadi pada kecepatanmu, posisimu, bahkan arah gerakanmu tanpa harus benar-benar jatuh dari tebingnya!&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Rahasia Di Balik Perubahan yang Tak Terlihat!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kamu mungkin bertanya-tanya, apa sih yang spesial dari &lt;strong&gt;limit&lt;/strong&gt; dalam matematika? Limit adalah konsep dasar yang luar biasa di kalkulus, membantu kita memahami hal-hal yang tidak bisa kita lihat secara langsung! 🚀&lt;/p&gt;
+&lt;p&gt;✨ &lt;strong&gt;Apa itu Limit?&lt;/strong&gt;
+Limit adalah cara matematika untuk menjawab pertanyaan: “Apa yang terjadi saat sesuatu &lt;em&gt;mendekati&lt;/em&gt; nilai tertentu?” Misalnya, bayangkan kamu semakin mendekati ujung tebing. Limit membantu kita memahami apa yang terjadi pada kecepatanmu, posisimu, bahkan arah gerakanmu tanpa harus benar-benar jatuh dari tebingnya!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aljabar: Pertidaksamaan</title>
       <link>http://localhost:1313/posts/aljabar/pertidaksamaan/</link>
       <pubDate>Tue, 15 Oct 2024 18:56:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/aljabar/pertidaksamaan/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Pertidaksamaan&lt;/strong&gt; adalah pernyataan matematika yang menunjukkan bahwa dua nilai tidak sama, dan menggunakan tanda perbandingan untuk menunjukkan bagaimana mereka berbeda. Pertidaksamaan membandingkan dua ekspresi, menggunakan tanda-tanda berikut:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;$ &amp;lt; $&lt;/strong&gt; : Kurang dari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;$ &amp;gt; $&lt;/strong&gt; : Lebih dari&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;$ \leq $&lt;/strong&gt; : Kurang dari atau sama dengan&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;$ \geq $&lt;/strong&gt; : Lebih dari atau sama dengan&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;contoh-dasar&#34;&gt;Contoh Dasar&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$ 5 &amp;lt; 7 $ berarti &amp;ldquo;5 kurang dari 7.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;$ x &amp;gt; 3 $ berarti &amp;ldquo;nilai $ x $ lebih dari 3.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;penyelesaian-pertidaksamaan&#34;&gt;Penyelesaian Pertidaksamaan&lt;/h3&gt;&#xA;&lt;p&gt;Untuk menyelesaikan pertidaksamaan, caranya mirip dengan menyelesaikan persamaan, namun dengan aturan tambahan ketika mengalikan atau membagi dengan bilangan negatif. Berikut adalah langkah-langkahnya:&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Pertidaksamaan&lt;/strong&gt; adalah pernyataan matematika yang menunjukkan bahwa dua nilai tidak sama, dan menggunakan tanda perbandingan untuk menunjukkan bagaimana mereka berbeda. Pertidaksamaan membandingkan dua ekspresi, menggunakan tanda-tanda berikut:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;$ &amp;lt; $&lt;/strong&gt; : Kurang dari&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$ &amp;gt; $&lt;/strong&gt; : Lebih dari&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$ \leq $&lt;/strong&gt; : Kurang dari atau sama dengan&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$ \geq $&lt;/strong&gt; : Lebih dari atau sama dengan&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;contoh-dasar&#34;&gt;Contoh Dasar&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;$ 5 &amp;lt; 7 $ berarti &amp;ldquo;5 kurang dari 7.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;$ x &amp;gt; 3 $ berarti &amp;ldquo;nilai $ x $ lebih dari 3.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;penyelesaian-pertidaksamaan&#34;&gt;Penyelesaian Pertidaksamaan&lt;/h3&gt;
+&lt;p&gt;Untuk menyelesaikan pertidaksamaan, caranya mirip dengan menyelesaikan persamaan, namun dengan aturan tambahan ketika mengalikan atau membagi dengan bilangan negatif. Berikut adalah langkah-langkahnya:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aljabar: Rangkuman</title>
       <link>http://localhost:1313/posts/aljabar/rangkuman-aljabar/</link>
       <pubDate>Tue, 15 Oct 2024 18:51:01 +0000</pubDate>
       <guid>http://localhost:1313/posts/aljabar/rangkuman-aljabar/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Aljabar&lt;/strong&gt; adalah cabang matematika yang berfokus pada manipulasi simbol-simbol untuk mewakili angka. Ini memungkinkan kita untuk menyelesaikan persamaan dan memahami hubungan antar variabel.&lt;/p&gt;&#xA;&lt;p&gt;Berikut adalah rangkuman singkat konsep dasar aljabar:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Variabel&lt;/strong&gt;: Simbol (biasanya huruf seperti $ x $ atau $ y $) yang mewakili angka yang belum diketahui.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contoh: $ x + 3 = 7 $ (di sini $ x $ adalah variabel yang kita cari nilainya).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Persamaan Linear&lt;/strong&gt;: Persamaan yang melibatkan variabel pangkat satu (tidak ada eksponen).&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Aljabar&lt;/strong&gt; adalah cabang matematika yang berfokus pada manipulasi simbol-simbol untuk mewakili angka. Ini memungkinkan kita untuk menyelesaikan persamaan dan memahami hubungan antar variabel.&lt;/p&gt;
+&lt;p&gt;Berikut adalah rangkuman singkat konsep dasar aljabar:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Variabel&lt;/strong&gt;: Simbol (biasanya huruf seperti $ x $ atau $ y $) yang mewakili angka yang belum diketahui.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Contoh: $ x + 3 = 7 $ (di sini $ x $ adalah variabel yang kita cari nilainya).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Persamaan Linear&lt;/strong&gt;: Persamaan yang melibatkan variabel pangkat satu (tidak ada eksponen).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kendala Saat Belajar Kalkulus</title>
       <link>http://localhost:1313/posts/kalkulus/faq/kendala-saat-belajar-kalkulus/</link>
       <pubDate>Tue, 15 Oct 2024 18:47:27 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/faq/kendala-saat-belajar-kalkulus/</guid>
-      <description>&lt;p&gt;Saat belajar kalkulus, beberapa kendala umum yang mungkin dihadapi adalah:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pemahaman Limit dan Abstraksi&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Limit adalah salah satu konsep yang sulit karena melibatkan pendekatan nilai, bukan hasil yang langsung terlihat. Banyak orang kesulitan memahami &amp;ldquo;pendekatan&amp;rdquo; tanpa benar-benar menyentuh suatu nilai.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Kebingungan dengan Notasi Matematika&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Kalkulus memperkenalkan banyak notasi baru (seperti simbol turunan, integral, dan notasi limit). Pada awalnya, ini bisa membingungkan dan sulit diingat.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fungsi Kompleks dan Grafik&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Kamu mungkin mengalami kesulitan saat mencoba menggambarkan fungsi atau memahami grafik fungsi yang lebih rumit (seperti fungsi trigonometri atau eksponensial).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Kesulitan Memahami Turunan dan Integral&lt;/strong&gt;:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Saat belajar kalkulus, beberapa kendala umum yang mungkin dihadapi adalah:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pemahaman Limit dan Abstraksi&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Limit adalah salah satu konsep yang sulit karena melibatkan pendekatan nilai, bukan hasil yang langsung terlihat. Banyak orang kesulitan memahami &amp;ldquo;pendekatan&amp;rdquo; tanpa benar-benar menyentuh suatu nilai.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kebingungan dengan Notasi Matematika&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kalkulus memperkenalkan banyak notasi baru (seperti simbol turunan, integral, dan notasi limit). Pada awalnya, ini bisa membingungkan dan sulit diingat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Fungsi Kompleks dan Grafik&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kamu mungkin mengalami kesulitan saat mencoba menggambarkan fungsi atau memahami grafik fungsi yang lebih rumit (seperti fungsi trigonometri atau eksponensial).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Kesulitan Memahami Turunan dan Integral&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kalkulus?</title>
       <link>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</link>
       <pubDate>Tue, 15 Oct 2024 18:40:35 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/kenapa-kalkulus/</guid>
-      <description>&lt;p&gt;Jika kamu pernah mendengar kata &lt;strong&gt;kalkulus&lt;/strong&gt; dan langsung merasa takut, kamu tidak sendirian! Tapi tahukah kamu, kalkulus bukan hanya tentang simbol rumit dan grafik berliku-liku. Kalkulus adalah bahasa yang digunakan untuk memahami perubahan dan gerakan—dari hal kecil seperti tetesan air yang jatuh, hingga hal besar seperti orbit planet!&lt;/p&gt;&#xA;&lt;p&gt;🌟 &lt;strong&gt;Apa itu Kalkulus?&lt;/strong&gt;&#xA;Kalkulus adalah cabang matematika yang berfokus pada &lt;em&gt;perubahan&lt;/em&gt; dan &lt;em&gt;luas&lt;/em&gt;. Dua konsep utama kalkulus adalah:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Turunan&lt;/strong&gt; (Derivative) – Menjelaskan laju perubahan. Bayangkan kamu sedang lari, kalkulus bisa membantu menghitung seberapa cepat kecepatannya berubah setiap detik!&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Integral&lt;/strong&gt; – Menghitung total perubahan atau akumulasi, seperti berapa banyak air yang terisi di kolam setelah satu jam.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;🎯 &lt;strong&gt;Kenapa Kamu Perlu Peduli?&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Jika kamu pernah mendengar kata &lt;strong&gt;kalkulus&lt;/strong&gt; dan langsung merasa takut, kamu tidak sendirian! Tapi tahukah kamu, kalkulus bukan hanya tentang simbol rumit dan grafik berliku-liku. Kalkulus adalah bahasa yang digunakan untuk memahami perubahan dan gerakan—dari hal kecil seperti tetesan air yang jatuh, hingga hal besar seperti orbit planet!&lt;/p&gt;
+&lt;p&gt;🌟 &lt;strong&gt;Apa itu Kalkulus?&lt;/strong&gt;
+Kalkulus adalah cabang matematika yang berfokus pada &lt;em&gt;perubahan&lt;/em&gt; dan &lt;em&gt;luas&lt;/em&gt;. Dua konsep utama kalkulus adalah:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Turunan&lt;/strong&gt; (Derivative) – Menjelaskan laju perubahan. Bayangkan kamu sedang lari, kalkulus bisa membantu menghitung seberapa cepat kecepatannya berubah setiap detik!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integral&lt;/strong&gt; – Menghitung total perubahan atau akumulasi, seperti berapa banyak air yang terisi di kolam setelah satu jam.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;🎯 &lt;strong&gt;Kenapa Kamu Perlu Peduli?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bagaimana Memulai Belajar Kalkulus?</title>
       <link>http://localhost:1313/posts/kalkulus/faq/bagaimana-memulai-belajar-kalkulus/</link>
       <pubDate>Tue, 15 Oct 2024 18:20:53 +0000</pubDate>
       <guid>http://localhost:1313/posts/kalkulus/faq/bagaimana-memulai-belajar-kalkulus/</guid>
-      <description>&lt;p&gt;Sebelum mulai belajar kalkulus, ada beberapa keterampilan dan pemahaman dasar yang akan sangat membantumu. Berikut adalah hal-hal yang sebaiknya kamu kuasai:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Aritmatika&lt;/strong&gt;: Pastikan kamu nyaman dengan operasi dasar seperti penjumlahan, pengurangan, perkalian, pembagian, serta eksponen dan akar.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Aljabar&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Persamaan dan Pertidaksamaan&lt;/strong&gt;: Pahami cara menyelesaikan persamaan linear, kuadrat, dan eksponensial.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Manipulasi Aljabar&lt;/strong&gt;: Kemampuan menyederhanakan ekspresi aljabar sangat penting dalam kalkulus.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fungsi&lt;/strong&gt;: Pahami cara menggambar grafik fungsi dasar (linear, kuadrat, dan eksponensial) serta konsep domain dan range.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Geometri Dasar&lt;/strong&gt;:&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sebelum mulai belajar kalkulus, ada beberapa keterampilan dan pemahaman dasar yang akan sangat membantumu. Berikut adalah hal-hal yang sebaiknya kamu kuasai:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aritmatika&lt;/strong&gt;: Pastikan kamu nyaman dengan operasi dasar seperti penjumlahan, pengurangan, perkalian, pembagian, serta eksponen dan akar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Aljabar&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Persamaan dan Pertidaksamaan&lt;/strong&gt;: Pahami cara menyelesaikan persamaan linear, kuadrat, dan eksponensial.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manipulasi Aljabar&lt;/strong&gt;: Kemampuan menyederhanakan ekspresi aljabar sangat penting dalam kalkulus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fungsi&lt;/strong&gt;: Pahami cara menggambar grafik fungsi dasar (linear, kuadrat, dan eksponensial) serta konsep domain dan range.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Geometri Dasar&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test</title>
       <link>http://localhost:1313/posts/test/</link>
       <pubDate>Tue, 15 Oct 2024 18:03:27 +0000</pubDate>
       <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;p&gt;testinf out&#xA;this file is in draft&lt;/p&gt;&#xA;&lt;h1 id=&#34;hello-world&#34;&gt;hello world&lt;/h1&gt;&#xA;&lt;p&gt;lorem ipsum dolor sit amet.&lt;/p&gt;</description>
+      <description>&lt;p&gt;testinf out
+this file is in draft&lt;/p&gt;
+&lt;h1 id=&#34;hello-world&#34;&gt;hello world&lt;/h1&gt;
+&lt;p&gt;lorem ipsum dolor sit amet.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
