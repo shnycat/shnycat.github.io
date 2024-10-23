@@ -2,7 +2,7 @@
 title = 'Pengenalan Trigo'
 date = 2024-10-23T00:37:24Z
 +++
-# Apa Itu Trigonometri?
+### Apa Itu Trigonometri?
 
 Trigonometri adalah cabang matematika yang mempelajari hubungan antara sudut dan sisi dalam segitiga, terutama segitiga siku-siku. Fungsi-fungsi dasar trigonometri adalah **sine (sin)**, **cosine (cos)**, dan **tangent (tan)**, yang digunakan untuk menghitung perbandingan antara sisi-sisi segitiga. Misalnya, **sin** dari suatu sudut adalah perbandingan antara sisi di depan sudut tersebut dengan sisi miring (hipotenusa). 
 
@@ -10,7 +10,7 @@ Trigonometri banyak digunakan dalam berbagai bidang seperti fisika, arsitektur, 
 
 Berikut adalah detail dan contoh soal sederhana tentang konsep dasar trigonometri.
 
-## Fungsi Trigonometri Dasar
+### Fungsi Trigonometri Dasar
 Dalam segitiga siku-siku, terdapat tiga fungsi trigonometri dasar:
 - **Sine (sin)**: perbandingan antara sisi depan sudut (opposite) dan sisi miring (hypotenuse).
   $$
@@ -27,7 +27,7 @@ Dalam segitiga siku-siku, terdapat tiga fungsi trigonometri dasar:
   \tan \theta = \frac{\text{sisi depan}}{\text{sisi samping}}
   $$
 
-## Contoh Soal Sederhana
+### Contoh Soal Sederhana
 
 **Soal:**
 Diberikan segitiga siku-siku dengan sudut $ \theta $, panjang sisi depan $ 3 \, \text{cm} $, dan panjang sisi miring $ 5 \, \text{cm} $. Tentukan nilai $ \sin \theta $, $ \cos \theta $, dan $ \tan \theta $.
