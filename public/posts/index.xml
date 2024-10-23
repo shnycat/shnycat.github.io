@@ -6,8 +6,102 @@
     <description>Recent content in Posts on Shnycat Docs</description>
     <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Oct 2024 06:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 00:37:24 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latihan Soal Trigonometri</title>
+      <link>http://localhost:1313/posts/trigonometri/latihan-trigo/</link>
+      <pubDate>Wed, 23 Oct 2024 00:37:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/trigonometri/latihan-trigo/</guid>
+      <description>&lt;h4 id=&#34;1-fungsi-dasar-trigonometri&#34;&gt;&lt;strong&gt;1. Fungsi Dasar Trigonometri&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Soal 1:&lt;/strong&gt;&lt;br&gt;
+Diketahui segitiga siku-siku dengan sudut $ \theta $, sisi depan $ 5 , \text{cm} $, dan sisi miring $ 13 , \text{cm} $. Tentukan nilai $ \sin \theta $, $ \cos \theta $, dan $ \tan \theta $.&lt;/p&gt;
+&lt;h4 id=&#34;2-identitas-trigonometri&#34;&gt;&lt;strong&gt;2. Identitas Trigonometri&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Soal 2:&lt;/strong&gt;&lt;br&gt;
+Buktikan identitas trigonometri berikut:
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+$$
+untuk $ \theta = 30^\circ $.&lt;/p&gt;
+&lt;h4 id=&#34;3-grafik-fungsi-trigonometri&#34;&gt;&lt;strong&gt;3. Grafik Fungsi Trigonometri&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Soal 3:&lt;/strong&gt;&lt;br&gt;
+Gambarkan grafik fungsi $ y = \sin x $ untuk $ 0^\circ \leq x \leq 360^\circ $. Tentukan juga nilai maksimum dan minimum dari grafik tersebut.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pengenalan Trigo</title>
+      <link>http://localhost:1313/posts/trigonometri/pengenalan-trigo/</link>
+      <pubDate>Wed, 23 Oct 2024 00:37:24 +0000</pubDate>
+      <guid>http://localhost:1313/posts/trigonometri/pengenalan-trigo/</guid>
+      <description>&lt;h3 id=&#34;apa-itu-trigonometri&#34;&gt;Apa Itu Trigonometri?&lt;/h3&gt;
+&lt;p&gt;Trigonometri adalah cabang matematika yang mempelajari hubungan antara sudut dan sisi dalam segitiga, terutama segitiga siku-siku. Fungsi-fungsi dasar trigonometri adalah &lt;strong&gt;sine (sin)&lt;/strong&gt;, &lt;strong&gt;cosine (cos)&lt;/strong&gt;, dan &lt;strong&gt;tangent (tan)&lt;/strong&gt;, yang digunakan untuk menghitung perbandingan antara sisi-sisi segitiga. Misalnya, &lt;strong&gt;sin&lt;/strong&gt; dari suatu sudut adalah perbandingan antara sisi di depan sudut tersebut dengan sisi miring (hipotenusa).&lt;/p&gt;
+&lt;p&gt;Trigonometri banyak digunakan dalam berbagai bidang seperti fisika, arsitektur, dan navigasi, membantu kita memahami dan memecahkan masalah yang melibatkan sudut dan jarak.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aarch64 Syscalls</title>
+      <link>http://localhost:1313/posts/aarch64-syscalls/</link>
+      <pubDate>Mon, 21 Oct 2024 11:08:36 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aarch64-syscalls/</guid>
+      <description>&lt;p&gt;Here is a list of common system calls (syscalls) for AArch64 architecture along with their syscall numbers:&lt;/p&gt;
+&lt;h3 id=&#34;process-management&#34;&gt;Process Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_exit&lt;/code&gt; (93): Exit a program.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_fork&lt;/code&gt; (220): Fork a process.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_execve&lt;/code&gt; (221): Execute a program.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_wait4&lt;/code&gt; (260): Wait for a child process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;file-operations&#34;&gt;File Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_read&lt;/code&gt; (63): Read from a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_write&lt;/code&gt; (64): Write to a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_openat&lt;/code&gt; (56): Open a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_close&lt;/code&gt; (57): Close a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_lseek&lt;/code&gt; (62): Set the file offset.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_statx&lt;/code&gt; (291): Get file status.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;memory-management&#34;&gt;Memory Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_brk&lt;/code&gt; (214): Change data segment size.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_mmap&lt;/code&gt; (222): Map memory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_munmap&lt;/code&gt; (215): Unmap memory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;file-system-operations&#34;&gt;File System Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_chdir&lt;/code&gt; (49): Change current working directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_mkdirat&lt;/code&gt; (34): Create a directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_rmdir&lt;/code&gt; (84): Remove a directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_unlinkat&lt;/code&gt; (35): Delete a file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_renameat&lt;/code&gt; (38): Rename a file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;io-operations&#34;&gt;I/O Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_ioctl&lt;/code&gt; (29): Control a device.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_fcntl&lt;/code&gt; (25): File control operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;network&#34;&gt;Network&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_socket&lt;/code&gt; (198): Create a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_connect&lt;/code&gt; (203): Connect to a remote socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_bind&lt;/code&gt; (200): Bind a name to a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_sendto&lt;/code&gt; (206): Send a message on a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_recvfrom&lt;/code&gt; (207): Receive a message from a socket.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_accept&lt;/code&gt; (202): Accept a socket connection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;time-management&#34;&gt;Time Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_nanosleep&lt;/code&gt; (101): Sleep for a certain number of nanoseconds.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_gettimeofday&lt;/code&gt; (169): Get the current time.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_settimeofday&lt;/code&gt; (170): Set the current time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other&#34;&gt;Other&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sys_getpid&lt;/code&gt; (172): Get process ID.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_getppid&lt;/code&gt; (173): Get parent process ID.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_kill&lt;/code&gt; (129): Send a signal to a process.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_getuid&lt;/code&gt; (174): Get user ID.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sys_getgid&lt;/code&gt; (176): Get group ID.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To use these syscalls in assembly code, you load the corresponding syscall ID into register &lt;code&gt;x8&lt;/code&gt;, and the appropriate arguments into registers &lt;code&gt;x0&lt;/code&gt; to &lt;code&gt;x7&lt;/code&gt;, then call &lt;code&gt;svc 0&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rumus Dasar Geometri</title>
       <link>http://localhost:1313/posts/geometri/rumus-dasar-geometri/</link>
@@ -392,6 +486,16 @@ Kalkulus adalah cabang matematika yang berfokus pada &lt;em&gt;perubahan&lt;/em&
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Geometri Dasar&lt;/strong&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Tue, 15 Oct 2024 18:03:27 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;p&gt;testinf out
+this file is in draft&lt;/p&gt;
+&lt;h1 id=&#34;hello-world&#34;&gt;hello world&lt;/h1&gt;
+&lt;p&gt;lorem ipsum dolor sit amet.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

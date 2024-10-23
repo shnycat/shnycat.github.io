@@ -57,10 +57,12 @@ Tentukan koordinat kartesian dari titik polar $ (r, \theta) = (5, 60^\circ) $.
 1. $ \sin \theta = \frac{5}{13}, \cos \theta = \frac{12}{13}, \tan \theta = \frac{5}{12} $
 2. Substitusi $ \theta = 30^\circ $, $ \sin 30^\circ = 0.5 $, $ \cos 30^\circ = \frac{\sqrt{3}}{2} $, hasilnya $ 0.5^2 + \left( \frac{\sqrt{3}}{2} \right)^2 = 1 $.
 3. Grafik $ \sin x $ berbentuk gelombang, nilai maksimum $ 1 $, nilai minimum $ -1 $.
+![sin x](/img/sin_x.svg)
 4. $ \theta = 30^\circ, 150^\circ $
 5. Jarak mendatar $ = \frac{1000}{\tan 30^\circ} \approx 1732 \, \text{meter} $
 6. Gunakan hukum sinus: $ \frac{a}{\sin A} = \frac{b}{\sin B} $, hitung $ \sin B $.
 7. Gunakan rumus cosinus, hasilnya $ c \approx 5.57 \, \text{cm} $.
 8. Grafik diregangkan secara vertikal dan digeser ke kiri sebesar 30°.
+![2sin(x+30ᵒ)](/img/2sin(x+30deg).svg)
 9. Nilai $ x = \sin^{-1} 0.5 = 30^\circ $.
 10. $ x = r \cos \theta = 5 \times \cos 60^\circ = 2.5 $, $ y = r \sin \theta = 5 \times \sin 60^\circ = 4.33 $.
