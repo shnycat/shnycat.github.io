@@ -51,7 +51,7 @@ $$
 - $ \cos \theta = 0.8 $
 - $ \tan \theta = 0.75 $
 
-# Penerapan Sehari-hari
+## Penerapan Sehari-hari
 Berikut adalah tiga contoh soal praktikal trigonometri beserta penjelasannya:
 
 ### 1. Menara dan Bayangan
