@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer-Sciences on Shnycat Docs</title>
     <link>http://localhost:1313/computer-science/</link>
     <description>Recent content in Computer-Sciences on Shnycat Docs</description>
-    <generator>Hugo -- 0.136.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Oct 2024 05:36:59 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/computer-science/index.xml" rel="self" type="application/rss+xml" />
@@ -13,74 +13,21 @@
       <link>http://localhost:1313/computer-science/day-02/</link>
       <pubDate>Sat, 19 Oct 2024 05:36:59 +0000</pubDate>
       <guid>http://localhost:1313/computer-science/day-02/</guid>
-      <description>&lt;h3 id=&#34;day-2-binary-systems-and-data-representation&#34;&gt;Day 2: Binary Systems and Data Representation&lt;/h3&gt;
-&lt;h4 id=&#34;introduction-to-binary-systems&#34;&gt;Introduction to Binary Systems&lt;/h4&gt;
-&lt;p&gt;Computers operate using binary numbers because their hardware is based on electrical signals that have two states: &lt;strong&gt;on&lt;/strong&gt; or &lt;strong&gt;off&lt;/strong&gt;. These states are represented by &lt;strong&gt;1&lt;/strong&gt; (on) and &lt;strong&gt;0&lt;/strong&gt; (off). This is the foundation of the binary system, also called &lt;strong&gt;base-2&lt;/strong&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;decimal-vs-binary&#34;&gt;Decimal vs. Binary&lt;/h4&gt;
-&lt;p&gt;You’re familiar with the &lt;strong&gt;decimal system&lt;/strong&gt; (base-10), which uses ten digits (0-9). The binary system works similarly, but instead of ten digits, it uses only two digits (0 and 1).&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;day-2-binary-systems-and-data-representation&#34;&gt;Day 2: Binary Systems and Data Representation&lt;/h3&gt;&#xA;&lt;h4 id=&#34;introduction-to-binary-systems&#34;&gt;Introduction to Binary Systems&lt;/h4&gt;&#xA;&lt;p&gt;Computers operate using binary numbers because their hardware is based on electrical signals that have two states: &lt;strong&gt;on&lt;/strong&gt; or &lt;strong&gt;off&lt;/strong&gt;. These states are represented by &lt;strong&gt;1&lt;/strong&gt; (on) and &lt;strong&gt;0&lt;/strong&gt; (off). This is the foundation of the binary system, also called &lt;strong&gt;base-2&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h4 id=&#34;decimal-vs-binary&#34;&gt;Decimal vs. Binary&lt;/h4&gt;&#xA;&lt;p&gt;You’re familiar with the &lt;strong&gt;decimal system&lt;/strong&gt; (base-10), which uses ten digits (0-9). The binary system works similarly, but instead of ten digits, it uses only two digits (0 and 1).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning Path</title>
       <link>http://localhost:1313/computer-science/learning-plan/</link>
       <pubDate>Sat, 19 Oct 2024 05:27:23 +0000</pubDate>
       <guid>http://localhost:1313/computer-science/learning-plan/</guid>
-      <description>&lt;p&gt;Here’s a month-long course outline to help you learn core computer science concepts:&lt;/p&gt;
-&lt;h3 id=&#34;week-1-fundamentals-of-computer-science&#34;&gt;Week 1: Fundamentals of Computer Science&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Day 1-2&lt;/strong&gt;: &lt;strong&gt;Introduction to Computer Science&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What is Computer Science?&lt;/li&gt;
-&lt;li&gt;Computer vs. Computing: Concepts of hardware and software.&lt;/li&gt;
-&lt;li&gt;Algorithms and how computers process data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Day 3-4&lt;/strong&gt;: &lt;strong&gt;Binary Systems and Data Representation&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Binary numbers, hexadecimal, and their relevance.&lt;/li&gt;
-&lt;li&gt;How computers represent text, images, and sound.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Day 5-7&lt;/strong&gt;: &lt;strong&gt;Computer Architecture&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Basic components: CPU, memory, storage, input/output devices.&lt;/li&gt;
-&lt;li&gt;Understanding how the CPU executes instructions (fetch-decode-execute cycle).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;week-2-programming-concepts&#34;&gt;Week 2: Programming Concepts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Day 8-9&lt;/strong&gt;: &lt;strong&gt;Introduction to Programming Languages&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Here’s a month-long course outline to help you learn core computer science concepts:&lt;/p&gt;&#xA;&lt;h3 id=&#34;week-1-fundamentals-of-computer-science&#34;&gt;Week 1: Fundamentals of Computer Science&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Day 1-2&lt;/strong&gt;: &lt;strong&gt;Introduction to Computer Science&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What is Computer Science?&lt;/li&gt;&#xA;&lt;li&gt;Computer vs. Computing: Concepts of hardware and software.&lt;/li&gt;&#xA;&lt;li&gt;Algorithms and how computers process data.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Day 3-4&lt;/strong&gt;: &lt;strong&gt;Binary Systems and Data Representation&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Binary numbers, hexadecimal, and their relevance.&lt;/li&gt;&#xA;&lt;li&gt;How computers represent text, images, and sound.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Day 5-7&lt;/strong&gt;: &lt;strong&gt;Computer Architecture&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Basic components: CPU, memory, storage, input/output devices.&lt;/li&gt;&#xA;&lt;li&gt;Understanding how the CPU executes instructions (fetch-decode-execute cycle).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;week-2-programming-concepts&#34;&gt;Week 2: Programming Concepts&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Day 8-9&lt;/strong&gt;: &lt;strong&gt;Introduction to Programming Languages&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Day-01</title>
       <link>http://localhost:1313/computer-science/day-01/</link>
       <pubDate>Sat, 19 Oct 2024 05:24:57 +0000</pubDate>
       <guid>http://localhost:1313/computer-science/day-01/</guid>
-      <description>&lt;h3 id=&#34;day-1-introduction-to-computer-science&#34;&gt;Day 1: Introduction to Computer Science&lt;/h3&gt;
-&lt;h4 id=&#34;what-is-computer-science&#34;&gt;What is Computer Science?&lt;/h4&gt;
-&lt;p&gt;Computer Science (CS) is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists mostly deal with software and software systems, including their theory, development, and application.&lt;/p&gt;
-&lt;p&gt;The field of computer science can be divided into several areas:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Algorithms and Data Structures&lt;/strong&gt;: These are the methods and techniques for efficiently solving problems and processing data.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Programming Languages&lt;/strong&gt;: The tools used to write instructions for computers to perform tasks.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Computer Architecture&lt;/strong&gt;: The design and organization of the components in a computer system.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Artificial Intelligence (AI)&lt;/strong&gt;: The simulation of human intelligence in machines.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Operating Systems&lt;/strong&gt;: The software that manages computer hardware and provides services for computer programs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Networks&lt;/strong&gt;: The systems and protocols that allow computers to communicate with each other.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;computer-vs-computing&#34;&gt;Computer vs. Computing&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Computer&lt;/strong&gt;: A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations automatically. It takes input, processes the data, and provides an output.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Computing&lt;/strong&gt;: Computing refers to the process of utilizing computer technology to complete a task. It encompasses everything from designing algorithms to processing data and developing software.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;key-concepts&#34;&gt;Key Concepts:&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Software and Hardware&lt;/strong&gt;:&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;day-1-introduction-to-computer-science&#34;&gt;Day 1: Introduction to Computer Science&lt;/h3&gt;&#xA;&lt;h4 id=&#34;what-is-computer-science&#34;&gt;What is Computer Science?&lt;/h4&gt;&#xA;&lt;p&gt;Computer Science (CS) is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists mostly deal with software and software systems, including their theory, development, and application.&lt;/p&gt;&#xA;&lt;p&gt;The field of computer science can be divided into several areas:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Algorithms and Data Structures&lt;/strong&gt;: These are the methods and techniques for efficiently solving problems and processing data.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Programming Languages&lt;/strong&gt;: The tools used to write instructions for computers to perform tasks.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computer Architecture&lt;/strong&gt;: The design and organization of the components in a computer system.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Artificial Intelligence (AI)&lt;/strong&gt;: The simulation of human intelligence in machines.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Operating Systems&lt;/strong&gt;: The software that manages computer hardware and provides services for computer programs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Networks&lt;/strong&gt;: The systems and protocols that allow computers to communicate with each other.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;computer-vs-computing&#34;&gt;Computer vs. Computing&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computer&lt;/strong&gt;: A computer is a machine that can be programmed to carry out sequences of arithmetic or logical operations automatically. It takes input, processes the data, and provides an output.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Computing&lt;/strong&gt;: Computing refers to the process of utilizing computer technology to complete a task. It encompasses everything from designing algorithms to processing data and developing software.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;key-concepts&#34;&gt;Key Concepts:&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Software and Hardware&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
