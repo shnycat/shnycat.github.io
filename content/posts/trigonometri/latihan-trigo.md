@@ -14,6 +14,8 @@ $$
 $$
 untuk $ \theta = 30^\circ $.
 
+![sin²(x)](/img/sin^2(x).svg)
+
 #### **3. Grafik Fungsi Trigonometri**
 **Soal 3:**  
 Gambarkan grafik fungsi $ y = \sin x $ untuk $ 0^\circ \leq x \leq 360^\circ $. Tentukan juga nilai maksimum dan minimum dari grafik tersebut.

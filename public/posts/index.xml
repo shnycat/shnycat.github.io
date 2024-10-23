@@ -15,7 +15,9 @@
       <guid>http://localhost:1313/posts/trigonometri/latihan-trigo/</guid>
       <description>&lt;h4 id=&#34;1-fungsi-dasar-trigonometri&#34;&gt;&lt;strong&gt;1. Fungsi Dasar Trigonometri&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Soal 1:&lt;/strong&gt;&lt;br&gt;
-Diketahui segitiga siku-siku dengan sudut $ \theta $, sisi depan $ 5 , \text{cm} $, dan sisi miring $ 13 , \text{cm} $. Tentukan nilai $ \sin \theta $, $ \cos \theta $, dan $ \tan \theta $.&lt;/p&gt;
+Diketahui segitiga siku-siku dengan sudut $ \theta $, sisi depan $ 5 , \text{cm} $, dan sisi miring $ 13 , \text{cm} $. Tentukan nilai $ \sin \theta $, $ \cos \theta $, dan $ \tan \theta $.
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/img/sin%5e2%28x%29.svg&#34; alt=&#34;sin²(x)&#34;  /&gt;
+&lt;/p&gt;
 &lt;h4 id=&#34;2-identitas-trigonometri&#34;&gt;&lt;strong&gt;2. Identitas Trigonometri&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Soal 2:&lt;/strong&gt;&lt;br&gt;
 Buktikan identitas trigonometri berikut:
