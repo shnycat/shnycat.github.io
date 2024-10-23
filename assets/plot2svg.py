@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 
 def m_plot(expr, file_name='plot.svg', label=''):
-    x = np.linspace(-10, 10, 1000)
+    x = np.linspace(-6, 6, 1000)
 
     try:
         y = eval(expr)
